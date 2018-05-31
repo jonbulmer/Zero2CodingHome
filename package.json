@@ -1,7 +1,7 @@
 {
-  "name": "angular2-DaimondEdge-site",
+  "name": "zero2codingHome",
   "version": "1.0.0",
-  "description": "Angular front end for Diamond Edge a business support platform",
+  "description": "Angular front end for zeror2coding platform",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
