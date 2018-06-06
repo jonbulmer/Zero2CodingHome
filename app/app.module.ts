@@ -14,7 +14,6 @@ import { NavComponent } from './shared/navbar.component';
 import { LogoComponent } from './shared/logo.component';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './shared/app.routing';
-import { CompanyListComponent } from './companies/company-list.component';
 import { AdminModule } from './admin/admin.module';
 
 @NgModule({
@@ -27,14 +26,10 @@ import { AdminModule } from './admin/admin.module';
     ],
     declarations: [
         AppComponent,
-        //ForbiddenComponent,
-        //UnauthorizedComponent,
-        //SecureFilesComponent,
         NavComponent,
         LogoComponent,
         HomeComponent,
-        ErrorComponent,
-        CompanyListComponent
+        ErrorComponent
     ],
     providers: [
        // {
