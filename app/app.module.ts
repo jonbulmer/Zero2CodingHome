@@ -6,22 +6,17 @@ import { AppComponent } from './start/app.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
-//import { ForbiddenComponent } from './admin/forbidden/forbidden.component';
-//import { UnauthorizedComponent } from './admin/unauthorized/unauthorized.component';
-//import { SecureFilesComponent } from './admin/securefile/securefiles.component';
 import { HomeComponent } from  './home/home.component';
 import { NavComponent } from './shared/navbar.component';
 import { LogoComponent } from './shared/logo.component';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './shared/app.routing';
-import { AdminModule } from './admin/admin.module';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
         HttpClientModule,
-        AdminModule,
         AppRoutingModule,
     ],
     declarations: [
