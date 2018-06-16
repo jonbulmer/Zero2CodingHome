@@ -13,7 +13,7 @@ module.exports = {
 
   resolve: {
     modules: ['node_modules'],
-    extensions: [ '.js', '.ts', '.scss']
+    extensions: [ '.js', '.ts',  '.css']
   },
 
   module: {
@@ -31,9 +31,19 @@ module.exports = {
         loader: 'file-loader?name=assets/[name].[hash].[ext]'
       },
       {
+        // Transform our own .css files with PostCSS and CSS-modules
         test: /\.css$/,
-        include: helpers.root('src', 'app'),
-        loader: 'css-loader'
+        exclude: /node_modules/,
+        use: [ 'css-loader'],
+      }, {
+        // Do not transform vendor's CSS with CSS-modules
+        // The point is that they remain in global scope.
+        // Since we require these CSS files in our JS or CSS files,
+        // they will be a part of our compilation either way.
+        // So, no need for ExtractTextPlugin here.
+        test: /\.css$/,
+        include: /node_modules/,
+        use: [ 'css-loader'],
       }
     ]
   },
