@@ -19,10 +19,15 @@ module.exports = {
                 loader: 'html-loader'
             },
             {
-    s            test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+                test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
                 loader: 'null-loader'
             },
-           
+            {
+                test: /\.scss$/,
+                use: ['style-loader',
+                'css-loader',
+                'sass-loader']
+            },
             {
                 test:/\.css$/,
                 include: helpers.root('src', 'app'),

@@ -7,24 +7,25 @@ import { AppComponent } from './start/app.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { HomeComponent } from  './home/home.component';
-import { NavComponent } from './shared/navbar.component';
-import { LogoComponent } from './shared/logo.component';
-import { ErrorComponent } from './error/error.component';
-import { AppRoutingModule } from './shared/app.routing';
+//import { NavComponent } from './shared/navbar.component';
+//import { LogoComponent } from './shared/logo.component';
+//import { ErrorComponent } from './error/error.component';
+//import { AppRoutingModule } from './shared/app.routing';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
-        HttpClientModule,
-        AppRoutingModule,
+        HttpClientModule//,
+        //AppRoutingModule,
     ],
     declarations: [
         AppComponent,
-        NavComponent,
-        LogoComponent,
-        HomeComponent,
-        ErrorComponent
+        HomeComponent
+        //NavComponent,
+        //LogoComponent,
+        
+        //ErrorComponent
     ],
     providers: [
        // {
