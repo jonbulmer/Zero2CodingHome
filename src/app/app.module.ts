@@ -5,27 +5,19 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './start/app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-
+import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
-//import { NavComponent } from './shared/navbar.component';
-//import { LogoComponent } from './shared/logo.component';
-//import { ErrorComponent } from './error/error.component';
-//import { AppRoutingModule } from './shared/app.routing';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
-        HttpClientModule//,
-        //AppRoutingModule,
+        HttpClientModule,
+        AppRoutingModule
     ],
     declarations: [
         AppComponent,
         HomeComponent
-        //NavComponent,
-        //LogoComponent,
-        
-        //ErrorComponent
     ],
     providers: [
        // {
