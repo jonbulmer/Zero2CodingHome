@@ -7,6 +7,7 @@ import { AppComponent } from './start/app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
+import { NavComponent } from './shared/navbar.component';
 
 @NgModule({
     imports: [
@@ -17,7 +18,8 @@ import { HomeComponent } from  './home/home.component';
     ],
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        NavComponent
     ],
     providers: [
        // {
