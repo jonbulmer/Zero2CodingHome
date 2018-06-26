@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
 import { NavComponent } from './shared/navbar.component';
+import { Lesson1Component } from './lesson1/lesson1.component';
 
 @NgModule({
     imports: [
@@ -19,7 +20,8 @@ import { NavComponent } from './shared/navbar.component';
     declarations: [
         AppComponent,
         HomeComponent,
-        NavComponent
+        NavComponent,
+        Lesson1Component
     ],
     providers: [
        // {
