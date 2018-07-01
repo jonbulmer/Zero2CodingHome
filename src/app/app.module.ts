@@ -9,13 +9,15 @@ import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
 import { NavComponent } from './shared/navbar.component';
 import { Lesson1Component } from './lesson1/lesson1.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        FlexLayoutModule
     ],
     declarations: [
         AppComponent,
