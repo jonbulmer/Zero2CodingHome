@@ -9,6 +9,7 @@ import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
 import { NavComponent } from './shared/navbar.component';
 import { Lesson1Component } from './lesson1/lesson1.component';
+import { Lesson2Component } from './lesson2/lesson2.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         AppComponent,
         HomeComponent,
         NavComponent,
-        Lesson1Component
+        Lesson1Component,
+        Lesson2Component
     ],
     providers: [
        // {
