@@ -26,7 +26,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         HomeComponent,
         NavComponent,
         Lesson1Component,
-        Lesson2Component
+        Lesson2Component,
+        Lesson3Component
     ],
     providers: [
        // {
