@@ -2,3 +2,82 @@
 <div>
     <h1>Lesson 5</h1>
 </div>
+<div>
+    <h2>Nesting and the complicated walk project</h2>
+</div>
+<div>
+    <h2>Its complicated but we can make it simple</h2>
+</div>
+<div>
+    <h3>It's game time but you create it</h3>
+</div>
+<div>
+    <p>
+        The demonstration we have for you in this lesson, is designed to get you thinking. 
+        For the first time we are going to ask you, if you think you can make a game out 
+        of this code. If you can think of some idea and develop that game, we will think 
+        2 things.
+    </p> 
+    <ul>
+        <li>Great you are getting there, in your journey to becoming a coder</li>
+        <li>We would love to see your cool new game.</li>
+    </ul>
+    <p>
+         So email it to us we would love to play it.
+    </p>
+</div>
+<div>
+        Right we are going to have to get to grips with what is happening here, with the logic. 
+        We have covered all the basics in the first 4 lessons, now we are going to do a thing 
+        called nesting our code. We do this to place our logic in one place, in the most 
+        efficient way we can. Get it right and you will have efficient code that is readable 
+        and compact. Take a look at this code.
+
+</div>
+<div>
+    <img>
+</div>
+<div>
+    <p>
+        The 1st thing we would like to talk about is the broadcasts. You can see we have drawn 
+        a line from one the another in the picture. I think of these like An airline route, 
+        you fly to the destination, do what you have to do and there return after you have finished.
+        The 'SetVariable' broadcast is the most common one in this demo, by using the broadcasts 
+        we only write and set all the variables to what we want once. This is in one place neat and 
+        tidy. If we find we want to add or change anything it is easy do this as everything is 
+        together. There is a big word for this Alan and Ada will tell you about that, if you want, 
+        it's worth knowing but in your own time.
+    </p>
+</div>
+<div>
+        <h2>Tell me about Initialization</h2>
+</div>
+<div>
+    <img src="/src/app/shared/images/standard/alan.gif">
+</div>
+<div>
+    <p>
+        In the demonstration we have an outer loop with a red boarder, so you can see it easy. 
+        The next level of the nested code is an IF statement. Have look at the picture below,
+        can you see a pattern here? The Most obvious one is the note 64 or E is played every 
+        other beat we do this with a IF ELSE block. When the variable 'NoteSwap' = 1 it will 
+        play E 64 and the other notes when it is not = 1. We use a little trick to change the 
+        value of 'NoteSwap' every beat, we use the 'times' opperator like this('NoteSwap' * -1) 
+        which is a trick in maths. The value will change from 1 to -1 every beat. 
+        Please just accept this for now will will talk about this later. There is other code in 
+        the ELSE part of this code just use it as it is for now, the maths is a bit hard for this 
+        lesson more later we promise. The broadcasts are final part of the nesting. As we said at 
+        the beginning of this lesson, it would be great if you can make a game. I know you can it 
+        does not have to be complex. Use the mouse position code in the pong game for an example.
+    </p>
+</div>
+<div>
+    <p>
+        Remember the part of this code you will be looking to modify, is the block that is called 
+        from the play broadcast. This is call after an IF test, in this case it has the cat 
+        touching the ball, as it is tested every other beat when 'NoteSwap' = 1. What this means 
+        is the background music can be broken at any time, so you can have your game just 
+        getting on with stuff, until you have some event that will be a key part off your game. 
+        Your job is to decide what you want to do.
+    </p>
+</div>
