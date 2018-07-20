@@ -1,1 +1,9 @@
 <navi-bar></navi-bar>
+<div
+fxFlex
+class="fxClass-all"
+ngClass.xs="fxClass-xs"
+[ngClass.sm]="{'fxClass-sm': hasStyle}"
+[ngClass.md]="{'fxClass-md': hasStyle, 'fxClass-md2': hasStyle}"
+[ngClass.lg]="['fxClass-lg', 'fxClass-lg2']">
+</div>
