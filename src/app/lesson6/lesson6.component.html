@@ -1,15 +1,42 @@
+<top-bar></top-bar>
+<div>
 <navi-bar></navi-bar>
-<div
-fxFlex
-class="fxClass-all"
-ngClass.xs="fxClass-xs"
-[ngClass.sm]="{'fxClass-sm': hasStyle}"
-[ngClass.md]="{'fxClass-md': hasStyle, 'fxClass-md2': hasStyle}"
-[ngClass.lg]="['fxClass-lg', 'fxClass-lg2']">
 </div>
 <div>
     <h2>Lesson 6 Operators</h2>
 </div>
+
+<div class="container">
+	<div fxLayout="row" fxLayoutAlign="start center" class="content">
+		<div class="blocks" fxFlex = "20%">1</div>
+		<div class="blocks" fxFlex = "60%">2</div>
+		<div class="blocks" fxFlex>3</div>
+	</div>
+</div>
+<div class="container">
+	<div fxLayout="row" fxLayoutAlign="space-around center" class="content">
+		<div class="blocks">1</div>
+		<div class="blocks">2</div>
+		<div class="blocks">3</div>
+	</div>
+</div>
+<div class="container">
+	<div fxLayout="row" fxLayoutAlign="begin center" class="content">
+		<div class="blocks">1</div>
+		<div class="blocks">2</div>
+		<div class="blocks">3</div>
+	</div>
+</div>
+<div class="container">
+	<div fxLayout="row"
+	     fxLayout.xs="column"
+	     fxLayout.sm="column"
+	     fxFlex class="contentResp">
+		<div class="blocks" fxFlex> I'm above on mobile, and to the left on larger devices.   </div>
+		<div class="blocks" fxFlex> I'm below on mobile, and to the right on larger devices.  </div>
+	</div>
+</div>
+
 <div>
     <h2>Operators, Add the traffic lights to the School Day project.</h2>
 </div>
@@ -33,4 +60,31 @@ ngClass.xs="fxClass-xs"
 </div>
 <div>
     <img src="/src/app/shared/images/lesson6//AndOrNot.gif">
-</div>    
+</div>
+<div>
+    <h3>Comparing our Variables.</h3>
+</div>
+<div>
+    <p>
+        We have operators to compare our variables, along with other things. The easiest one to 
+        understand is '=', that used in IF and conditional FOR loops. Numbers are the easiest to 
+        understand when 3 = 3 this obvious, we can also easily understand 2 < 3 is true and 4 > 5 
+        is not true. Even after years of coding, we will at time have to think what is happening here. 
+        As always take your time and understand what is going on.
+    </p>
+    <p>
+        So strings are a bit more difficult. We need to understand that every letter is given a 
+        number to represent it in the computers memory, Ada and Alan have a little note on the ASSCI 
+        code, but the numbers 0 to 9 are held in the computers memory as 48 to 57 and the letters 
+        A to Z are held in the memory as 65 to 90. The computer will compare two strings from left 
+        to right, looking at each character (That is a letter or number) and if the result is the 
+        same at the end of the comparison it will be equal. Please look at the picture below.
+    </p>
+    <p>
+        A tip with Scratch if you mouse over and click the operator sign like = < > in the green 
+        blocks it will tell you if the clause is true or false.
+    </p>
+</div>
+<div>
+    <img src="/src/app/shared/images/lesson6/Compare.gif">
+</div>
