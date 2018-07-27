@@ -15,6 +15,7 @@ import { Lesson3Component } from './lesson3/lesson3.component';
 import { Lesson4Component } from './lesson4/lesson4.component';
 import { Lesson5Component } from './lesson5/lesson5.component';
 import { Lesson6Component } from './lesson6/lesson6.component';
+import { AboutComponent } from './about/about.component'; 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -35,7 +36,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         Lesson3Component,
         Lesson4Component,
         Lesson5Component,
-        Lesson6Component
+        Lesson6Component,
+        AboutComponent
     ],
     providers: [
        // {
