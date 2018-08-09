@@ -5,26 +5,24 @@ $('#nav-toggle').click(function () {
 });
 
 $('.ReadIt').click(function() {
-var Soundfile = $(this).attr('id')
-$('#jp_container_l' + Soundfile).removeClass('clear');
-$('#' + Soundfile + '').jPlayer({
-  ready: function(event) {
-  $(this).jPlayer('setMedia', {
-      mp3: 'http://s375360152.websitehome.co.uk/Talk/lesson1/l' + Soundfile + '.mp3'
-   });
-    },
-    swfPath: 'http://jplayer.org/latest/js',
-    cssSelectorAncestor: '#jp_container_l' + Soundfile,
-    supplied: 'mp3'
-});
-
-
+    var Soundfile = $(this).attr('id')
+    $('#jp_container_l' + Soundfile).removeClass('clear');
+    $('#' + Soundfile + '').jPlayer({
+        ready: function(event) {
+            $(this).jPlayer('setMedia', {
+                mp3: 'http://s375360152.websitehome.co.uk/Talk/lesson1/l' + Soundfile + '.mp3'
+            });
+        },
+        swfPath: 'http://jplayer.org/latest/js',
+        cssSelectorAncestor: '#jp_container_l' + Soundfile,
+        supplied: 'mp3'
+    });
 });   
 
 $('.ProjectDownLoad').click(function(e) {
-console.log($(this).attr('id'));   
-e.preventDefault();  //stop the browser from following
-window.location.href = 'http://s375360152.websitehome.co.uk/' + $(this).attr('id') + '.sb';
+    console.log($(this).attr('id'));   
+    e.preventDefault();  //stop the browser from following
+    window.location.href = 'http://s375360152.websitehome.co.uk/' + $(this).attr('id') + '.sb';
 });   
 
 $('#stagedemo').mousemove(function(e){
@@ -34,33 +32,31 @@ $('#stagedemo').mousemove(function(e){
 }); 
 
 $('.btnShowNext').click(function() {
-$('#' + $(this).attr('id').replace('show','')).removeClass('clear');
-});   
+    $('#' + $(this).attr('id').replace('show','')).removeClass('clear');
+});
 
 $( ':radio').change(function() {
-$('#' + $(this).attr('id').replace('show','')).removeClass('clear');
+    $('#' + $(this).attr('id').replace('show','')).removeClass('clear');
 });   
   
 $('#btnCalc').click(function () {
-//$('#S' + 2 ).removeClass("Bblank");
-if(binaryArray.length == 13 ){
- binaryArray = ''; 
-}             
-if(binaryArray.length == 0){
-  var  res = parseInt($('#calc1').val()) + parseInt($('#calc2').val());
-  setupbinary($('#calc1').val());
-  //setupbinary($('#calc2').val());
-  //setupbinary(res); 
-  console.log(binaryArray);
-}
-else{
-   console.log(binaryArray.length);
-}
+    //$('#S' + 2 ).removeClass("Bblank");
+    if(binaryArray.length == 13 ){
+        binaryArray = ''; 
+    }             
+    if(binaryArray.length == 0){
+        var  res = parseInt($('#calc1').val()) + parseInt($('#calc2').val());
+        setupbinary($('#calc1').val());
+        //setupbinary($('#calc2').val());
+        //setupbinary(res); 
+        console.log(binaryArray);
+    }
+    else {
+        console.log(binaryArray.length);
+    }
 
 //ProgressThough($('#calc1').val(),'F');
 });
-
-}   
        
 function setupbinary(passnumber){
 var j;
