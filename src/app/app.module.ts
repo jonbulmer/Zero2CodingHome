@@ -9,6 +9,7 @@ import { AppRoutingModule } from './shared/app.routing';
 import { HomeComponent } from  './home/home.component';
 import { NavComponent } from './shared/navbar.component';
 import { TopbarComponent } from './shared/topbar.component';
+import { FooterComponent } from './shared/footer.component';
 import { Lesson1Component } from './lesson1/lesson1.component';
 import { Lesson2Component } from './lesson2/lesson2.component';
 import { Lesson3Component } from './lesson3/lesson3.component';
@@ -31,6 +32,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
         HomeComponent,
         NavComponent,
         TopbarComponent,
+        FooterComponent,
         Lesson1Component,
         Lesson2Component,
         Lesson3Component,
