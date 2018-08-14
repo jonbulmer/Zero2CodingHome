@@ -1,29 +1,33 @@
-$('#nav-toggle').click(function () {
-    $('.menu').toggleClass('smallMenu');
-    $('.menufloat').toggleClass('menufloathide');
-    $('.fa').toggleClass('fa-rotate-90');
-});
-
-$('.ReadIt').click(function() {
-    var Soundfile = $(this).attr('id')
-    $('#jp_container_l' + Soundfile).removeClass('clear');
-    $('#' + Soundfile + '').jPlayer({
-        ready: function(event) {
-            $(this).jPlayer('setMedia', {
-                mp3: 'http://s375360152.websitehome.co.uk/Talk/lesson1/l' + Soundfile + '.mp3'
-            });
-        },
-        swfPath: 'http://jplayer.org/latest/js',
-        cssSelectorAncestor: '#jp_container_l' + Soundfile,
-        supplied: 'mp3'
+var binaryArray = '';
+function ApplyBehaviour() {
+ 
+    $('#nav-toggle').click(function () {
+        $('.menu').toggleClass('smallMenu');
+        $('.menufloat').toggleClass('menufloathide');
+        $('.fa').toggleClass('fa-rotate-90');
     });
-});   
 
-$('.ProjectDownLoad').click(function(e) {
-    console.log($(this).attr('id'));   
-    e.preventDefault();  //stop the browser from following
-    window.location.href = 'http://s375360152.websitehome.co.uk/' + $(this).attr('id') + '.sb';
-});   
+
+    $('.ReadIt').click(function() {
+        var Soundfile = $(this).attr('id')
+        $('#jp_container_l' + Soundfile).removeClass('clear');
+        $('#' + Soundfile + '').jPlayer({
+            ready: function(event) {
+                $(this).jPlayer('setMedia', {
+                    mp3: 'http://s375360152.websitehome.co.uk/Talk/lesson1/l' + Soundfile + '.mp3'
+                });
+            },
+            swfPath: 'http://jplayer.org/latest/js',
+            cssSelectorAncestor: '#jp_container_l' + Soundfile,
+            supplied: 'mp3'
+        });
+    });   
+
+    $('.ProjectDownLoad').click(function(e) {
+        console.log($(this).attr('id'));   
+        e.preventDefault();  //stop the browser from following
+        window.location.href = 'http://s375360152.websitehome.co.uk/' + $(this).attr('id') + '.sb';
+    });   
 
 $('#stagedemo').mousemove(function(e){
     var x = (e.pageX- this.offsetLeft) -240;
@@ -107,4 +111,5 @@ else{
   $('#S' + Cell ).removeClass("Bblank");
   $('#S' + Cell ).addClass('B' + passbol);
 }   
+}
 }
