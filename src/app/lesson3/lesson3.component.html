@@ -38,40 +38,83 @@
 <div>
     <img src="/src/app/shared/images/lesson3/ExplainForLoop.gif">
 </div>
-<div id="strings" class="ProjectDownload">
-    <img src="/src/app/shared/images/standard/ProjectDownload.gif">
-</div>
-<div>
-    <h3>Working with strings.</h3>
-</div>
 <div>
     <p>
-        We have looked at how to work with strings before in lesson 3. Do you remember this code? 
-        You may have understood this and if that is the case well done. We will just explain a 
-        bit more about it now, as we are talking about operators now. All 3 types of the operators 
-        in the bottom picture are used here. In the REPEAT UNTIL block we test on the more than '>' 
-        operator. As we never know at the time of writing the code, how long a word the user will 
-        enter. We measure that words length, in the variable 'WhatwasSaid'. We could have just 
-        measured 'answer' but we felt as you where only just being introduced to variables it 
-        was a bit much to take in at that stage, but as you understand more now you can take 
-        that step out. We now use the join operator, to join the letter at the position stored 
-        in the 'thisnumber' variable. That is increased by 1 on every loop, remember the repeat 
-        will finish when this number is more than 'WhatwasSaid'. We are going to look at this code 
-        again in our debugging lesson, because there is a logic bug (a mistake) you may have 
-        spotted it.
+        So now we can put code together in sequences, and can work with the variables. This is great but 
+        you should be seeing us doing the same thing over and over again. If we look at the code in the 
+        first demo we looked at sequences. It would be better if it could go in a FOR loop as we can see 
+        in the above picture. Now you only have to write the sequence once when it is written in a loop.
     </p>
 </div>
 <div>
-    <img src="/src/app/shared/images/lesson6/Strings.gif">
+    <img src="/src/app/shared/images/lesson3/ForloopVariablegamedemo.gif">
 </div>
 <div>
     <p>
-        This the first time we have tried to have a complicated set of code but you have to have a few things going on to play a game. Think of a real tennis game you have to set the 
-        score to 0 0. Then you need a player that can run around, we are doing this by setting the bat to the mouse position. We have to keep checking where that mouse is, so every time the 
-        computer thinks, that is fast. We move to the mouses position in a loop once around every time it thinks. Imagine trying to do this in a sequence. The player has to serve the ball to 
-        start and hit it back, in this game it only goes in the opposite angle, no need to worry about that yet. We have to be ready for the ball all of the time so another loop. with an IF test 
-        that's our next lesson. We call a computer think time a clock tick.     
+        You will understand this or you may need more help, 75% will need more help. Ada and Alan are 
+        always happy to explain. The point here is we are using a loop to read a word left to right. 
+        Think back to the variable lesson where we went through the letters in a numbered box. (We 
+        count through them in our 'thisnumber' variable.) can you see it getting 1 added to it every loop. 
+        Also when this count gets to the number of letters in the word we entered it will exit the loop. 
+        When you get this you are well on the way to becoming a coder. WELL DONE ッ
     </p>
+</div>
+<div>
+    <h3>The 1st Demo Project.</h3>
+</div>
+<div>
+    <a id="forDemo1" class="ProjectDownload">
+        <img src="/src/app/shared/images/standard/ProjectDownload.gif">
+    </a>
+</div>
+<div>
+    <h3>Setting everything up.</h3>
+</div>
+<div>
+    <p>
+        Lets have a look at the setup part of this code. It is important to set everything up so when you run though 
+        the code everything is how you expect it. In this case we are setting all the strings to the value of '' 
+        (we call this empty string) and all the numbers to the value of 0. Please go back to lesson 2 if you are unsure 
+        what is and how we use variables. When we have done all this we use the light blue ask blocks to ask 
+        'What's your name?' You can see in the picture below the question is shown in the cats speech bubble, then the 
+        user can type text into the enter text box at the bottom. The answer is held in the light blue answer holder, 
+        this is in fact a special variable that can only be used for holding the text you enter. When you look at the 
+        writting on the light blue ask and wait block, what that means is the code just waits for the user to click the 
+        tick on the text box. When the user has clicked the tick box the WhatwasSaid variable is give the value that is 
+        held in the answer holder. The last part of the set up is we set the thisnumber variable to the value 1. The 
+        reason we have this is to count the letters in the text entered.
+    </p>
+</div>
+<div>
+    <img src="/src/app/shared/images/lesson3/FORsetupExplain.gif">
+</div>
+<div>
+    <h3>The work is done in the FOR loop</h3>
+</div>
+<div>
+    <p>
+        The reason we use loops is to do the same thing many times. In this loop we will do the work until we have read 
+        all the letters of the text entered. So let assume we entered 'Jon' as in the example above. We are going to 
+        look at the words 'repeat until thisnumber > length of Whatwassaid', this is the way the computer can keep track 
+        of how many letters it has read.
+    </p>
+</div>
+<div>
+    <p>
+        As we saw in the set up we set the thisnumber variable to 1 and length of WhatwasSaid is a number that is the number 
+        of letters in the text entered.        
+    </p>
+</div>
+<div>
+    <p>
+        So when we start thisnumber is 1 and the number of letters in whatwasSaid is 3  the > symbol means the value on the 
+        left is more than the value on the right that is in the first case.
+    </p>
+</div>
+<div>
+    <ul>
+        <li>1 Not more than 3</li>
+    </ul>
 </div>
 <div>
     <h3>2nd Demo Pong Game</h3>
