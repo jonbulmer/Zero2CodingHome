@@ -27,14 +27,29 @@ server {
 
 
 server {
-    listen 443 ssl;
-    server_name diamondedge-api.co.uk;
-    ssl on;
-    ssl_certificate /etc/nginx/ssl/diamondedge_api/ssl-bundle.crt;
-    ssl_certificate_key /etc/nginx/service/diamondedge-api.co.uk.key;
+         listen 443 ssl;
+         server_name diamondedge-api.co.uk;
+         ssl on;
+         ssl_certificate /etc/nginx/ssl/diamondedge_api/ssl-bundle.crt;
+         ssl_certificate_key /etc/nginx/service/diamondedge-api.co.uk.key;
 
-   location / {
-      proxy_pass http://127.0.0.1:5000;
+         location / {
+            proxy_pass http://127.0.0.1:5000;
         
    }
+
+server {
+         listen 80 default_server;
+         listen [::]:80 default_server;
+
+         root /var/www/html/zero2coding;
+
+         index index.html;
+         
+         server_name zero2coding.co.uk;
+
+         location / {
+                 try_files $uri $uri/ =404;
+         }
+}   
 }
