@@ -10,17 +10,38 @@ namespace Coeus
     {
         static void Main(string[] args)
         {
-            string input = "aaabbbbcdeeffggggg";
-            StringConverter stringConvert = new StringConverter();
+            //GeneralProblems.Palindrom.PalindromCheck("racecar");
+            //GeneralProblems.Problems.GeneralProblems1();
+            //string input = "aaabbbbcdeeffggggg";
+            //StringConverter stringConvert = new StringConverter();
 
-            Console.WriteLine(stringConvert.ConvertString(input)); 
+            //Console.WriteLine(stringConvert.ConvertString(input)); 
+
+
+            //  var chicken1 = new ChickenEgg.Chicken();
+            //  var egg = chicken1.Lay();
+            //  var childChicken = egg.Hatch();
+            //  var childChicken2 = egg.Hatch();
+            //GeneralProblems.TextInput input = new GeneralProblems.NumericInput();
+            //input.Add('1');
+            //input.Add('a');
+            //input.Add('0');
+            //Console.WriteLine(input.GetValue());
+            //Tuple<int, int> indices = GeneralProblems.TwoSum.FindTwoSum(new List<int>() { 3, 1, 5, 7, 5, 9 }, 10);
+            //if (indices != null)
+            //{
+            //    Console.WriteLine(indices.Item1 + " " + indices.Item2);
+            //}
+
+            GeneralProblems.TrainComposition buildTrain = new GeneralProblems.TrainComposition();
+            buildTrain.AttachWagonFromLeft(7);
+            buildTrain.AttachWagonFromLeft(13);
+            Console.WriteLine(buildTrain.DetachWagonFromRight()); // 7 
+            Console.WriteLine(buildTrain.DetachWagonFromLeft()); // 13
+
+            Console.WriteLine(GeneralProblems.SortedSearch.CountNumbers(new int[] { 1, 3, 5, 7 }, 4));
+
             Console.ReadKey();
-
-            var chicken1 = new ChickenEgg.Chicken();
-            var egg = chicken1.Lay();
-            var childChicken = egg.Hatch();
-            var childChicken2 = egg.Hatch();
-
         }
 
     }
