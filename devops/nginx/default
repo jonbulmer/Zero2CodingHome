@@ -40,6 +40,7 @@ server {
 }
 
 server {
+        // This is the code added for the zero 2 coding site
          listen 80 default_server;
          listen [::]:80 default_server;
 
