@@ -1,0 +1,10 @@
+1. Structure - why has code escaped the src folder?
+2. Use of DisplayName attrib and razor view helpers good - nice logicless view (as it should be!)
+
+3. StudentWithGrades vs StudentsGrades 
+- strange naming scheme?
+- StudentsWthGrades - could be all static?
+- This is a view model, a static factory and some public utility functions - is that too many responsibilities?
+
+4. StudentGrades.HasPassed - looping though char enumeration is an interesting approach - maybe vunerable to localisation impacts.
+5. StudentGrades.ConcatenateStudentExams - string builder will offer negligible benefit here.  This doesn't quite match the example in format.
