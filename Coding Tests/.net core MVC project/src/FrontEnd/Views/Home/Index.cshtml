@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Model.StudentGrades>
+@*Come back here and sort the project dependencies out*@
+
+<h2> List of Students With Grades </h2>
+
+@*A nice simple form for the output *@
+<table >
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseAndGrade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HasPassed)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseAndGrade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasPassed)
+            </td>
+        </tr>
+    }
+    </table>
