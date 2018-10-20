@@ -6,7 +6,7 @@ namespace AbstractFactoryDemo.Models
 {
     class Machine
     {
-        public Processor Producer { get; set; }
+        public Producer Producer { get; set; }
         public string Model { get; set; }
     }
 }
