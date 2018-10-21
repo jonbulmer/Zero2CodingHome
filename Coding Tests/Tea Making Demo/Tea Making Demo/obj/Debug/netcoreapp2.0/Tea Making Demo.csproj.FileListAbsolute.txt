@@ -1,0 +1,11 @@
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\bin\Debug\netcoreapp2.0\Tea Making Demo.deps.json
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\bin\Debug\netcoreapp2.0\Tea Making Demo.runtimeconfig.json
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\bin\Debug\netcoreapp2.0\Tea Making Demo.runtimeconfig.dev.json
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\bin\Debug\netcoreapp2.0\Tea Making Demo.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\bin\Debug\netcoreapp2.0\Tea Making Demo.pdb
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.csproj.CoreCompileInputs.cache
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.AssemblyInfoInputs.cache
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.AssemblyInfo.cs
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\Tea Making Demo\Tea Making Demo\obj\Debug\netcoreapp2.0\Tea Making Demo.pdb
