@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AbstractFactoryDemo.Interfaces;
 
 namespace AbstractFactoryDemo.Factories.Interfaces
 {
-    class IUserFactory
+    public interface IUserFactory
     {
+        IUser CreateUser(string name1, string name2);
+        IUserIdentity CreateIdentity();
     }
 }

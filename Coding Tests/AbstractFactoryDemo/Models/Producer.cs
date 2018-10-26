@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AbstractFactoryDemo.Interfaces
+namespace AbstractFactoryDemo.Models
 {
-    interface IUserIdentiy
+    class Producer
     {
     }
 }
