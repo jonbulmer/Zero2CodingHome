@@ -8,5 +8,15 @@ namespace AbstractFactoryDemo.Models
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+
+        public Person()
+        {
+
+        }
+
+        public void SetIdentity(IUserIdentity identity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
