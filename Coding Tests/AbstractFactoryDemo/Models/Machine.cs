@@ -9,18 +9,20 @@ namespace AbstractFactoryDemo.Models
         public Producer Producer { get; set; }
         public string Model { get; set; }
 
-        public void SetIdentity(IUserIdentity identity)
-        {
-            // identity must by MacAddress
-            // access identity.NicPart
-        }
-
         public Machine(Producer producer, string model)
         {
             if (producer == null)
             {
-                throw new AggregateException(); 
+                if (producer == null)
+                    throw new AggregateException(nameof(producer));
+                if (string.IsNullOrEmpty(model))
+                    throw new AggregateException("Model name must be non-empty."); 
             }
         }
+        public void SetIdentity(IUserIdentity identity)
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 }
