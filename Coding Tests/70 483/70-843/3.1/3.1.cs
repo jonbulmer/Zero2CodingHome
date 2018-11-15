@@ -32,4 +32,15 @@ namespace Exam.Objective3_1
             public string  Addressline { get; set; }
         }
     }
+
+    public static class GenericValidator<T>
+    {
+        public static IList<ValidationResult> Validate(T entity)
+        {
+            var result = new List<ValidationResult>();
+            var context = new ValidationContext(entity, null, null);
+            Validator.TryValidateObject(entity, context, result);
+            return result;
+        }
+    }
 }
