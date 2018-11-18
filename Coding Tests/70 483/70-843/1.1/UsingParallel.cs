@@ -28,5 +28,21 @@ namespace Exam.Objective1_1
                 return;
                 });
         }
+
+        public static void UsingBackgroundThread()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"ThreadProc: {i}");
+                Thread.Sleep(1000);
+            }
+        }
+
+        public static void CallUsingBackgroundThread()
+        {
+            Thread t = new Thread(new ThreadStart(UsingBackgroundThread));
+            t.IsBackground = true;
+            t.Start();
+        }
     }
 }
