@@ -9,6 +9,19 @@ namespace Exam.Objective3_4
     class DebugAnApplication
     {
 
+#warning This code is obsolete
+#if DEBUG
+#error Debug build is not allowed
+#endif
+
+#line 200 "OtherFileName"
+        int a; // line 200
+#line default
+        int b; //line 4
+#line hidden
+        int c; //hidden
+        int d; //line 7
+
         public Assembly LoadAssembly<T>()
         {
 #if !WINRT
@@ -25,6 +38,9 @@ namespace Exam.Objective3_4
 #if MySymbol
             Console.WriteLine("Custom symbol is defined");
 #endif
+
+
+
         }
 
         public static void MainCall()
