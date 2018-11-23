@@ -2,11 +2,12 @@
 using System;
 using System.Reflection;
 using System.Threading;
+using System.Diagnostics;
 
 namespace Exam.Objective3_4
 {
 
-    class DebugAnApplication
+    public class DebugAnApplication
     {
 
 #warning This code is obsolete
@@ -29,8 +30,23 @@ namespace Exam.Objective3_4
 #else
             Assembly assembly = typeof(T).GetTypeInfo().Assembly;   
 #endif
+#pragma warning disable
+            while (false)
+            {
+                Console.WriteLine("Unreachable code");
+            }
+#pragma warning restore
 
-        return assembly;
+#pragma warning disable 0162, 0168
+            int i;
+#pragma warning restore 0162
+            while (false)
+            {
+                Console.WriteLine("Unreachable code");
+            }
+#pragma warning restore
+
+            return assembly;
         }
 
         public static void UseCustomSymbol()
@@ -38,9 +54,6 @@ namespace Exam.Objective3_4
 #if MySymbol
             Console.WriteLine("Custom symbol is defined");
 #endif
-
-
-
         }
 
         public static void MainCall()
@@ -49,6 +62,18 @@ namespace Exam.Objective3_4
             Console.ReadLine();
         }
 
+
+        public static void SomeMethod()
+        {
+#if DEBUG
+            Log("Step1");
+#endif
+        }
+
+        private static void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
 
         /// <summary>
         /// This code demonstrates the difference on how Debug and relise 
@@ -71,7 +96,20 @@ namespace Exam.Objective3_4
             Console.WriteLine("Not Debug");
 #endif
         }
+    }
 
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
 
+    public class LogDerived : DebugAnApplication
+    {
+        [Conditional("DEBUG")]
+        private static void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
