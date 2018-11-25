@@ -10,10 +10,10 @@ namespace Exam.Objective3_4
     public class DebugAnApplication
     {
 
-#warning This code is obsolete
-#if DEBUG
-#error Debug build is not allowed
-#endif
+//#warning This code is obsolete
+//#if DEBUG
+//#error Debug build is not allowed
+//#endif
 
 #line 200 "OtherFileName"
         int a; // line 200
