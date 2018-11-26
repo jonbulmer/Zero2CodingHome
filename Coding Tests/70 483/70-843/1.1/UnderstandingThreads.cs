@@ -28,5 +28,43 @@ namespace Exam.Objective1_1
 
             t.Join();
         }
+
+        //Listing 1-3 Using the parametereizedThreadStart
+        public static void ThreadMethod(object o)
+        {
+            for (int i = 0; i < (int)o; i++)
+            {
+                Console.WriteLine($"ThreadProc: {i}");
+                Thread.Sleep(0);
+            }
+        }
+
+        public static void CallParamThreadMethod()
+        {
+            Thread t = new Thread(new ParameterizedThreadStart(ThreadMethod));
+            t.Start(15);
+            t.Join();
+        }
+
+
+        //Listing 1-4 Stopping a thread
+        public static void StoppingThread()
+        {
+            bool stopped = false;
+            Thread t = new Thread(new ThreadStart(() =>
+                {
+                    while (!stopped)
+                    {
+                        Console.WriteLine("Running...");
+                        Thread.Sleep(1000);
+                    }
+                    Console.WriteLine("Thread is about to close");
+                }));
+            t.Start();
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
+            stopped = true;
+            t.Join();
+        }
     }
 }
