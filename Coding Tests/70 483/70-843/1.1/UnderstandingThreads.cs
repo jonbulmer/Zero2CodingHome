@@ -66,5 +66,40 @@ namespace Exam.Objective1_1
             stopped = true;
             t.Join();
         }
+
+        //Listing 1-5 Using the ThreadStaticAttribute
+        public static void CallThreadStaticAttibutte()
+        {
+        }
+    }
+
+    //Listing 1-5 Using the ThreadStaticAttribute
+    public static class UsingThreadStaticAttribute
+    {
+        [ThreadStatic]
+        public static int _field;
+
+        public static void CallThreadStaticAttibutte()
+        {
+            Thread t1 = new Thread(new ThreadStart(() =>
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        _field++;
+                        Console.WriteLine($"Thread A: {_field}");
+                    }
+                }));
+            t1.Start();
+
+            Thread t2 = new Thread(new ThreadStart(() =>
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    _field++;
+                    Console.WriteLine($"Thread B: {_field}");
+                }
+            }));
+            t2.Start();
+        }
     }
 }
