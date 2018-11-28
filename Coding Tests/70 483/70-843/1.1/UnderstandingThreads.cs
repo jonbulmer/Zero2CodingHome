@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Exam.Objective1_1
 {
@@ -67,10 +68,16 @@ namespace Exam.Objective1_1
             t.Join();
         }
 
-        //Listing 1-5 Using the ThreadStaticAttribute
-        public static void CallThreadStaticAttibutte()
+        //Listing 1-7 Queuing some work to the Thread pool
+        public static void QueuingThreadpool()
         {
+            ThreadPool.QueueUserWorkItem((s) =>
+                {
+                    Console.WriteLine("Working on a thread on the ThreadPool");
+                });
+            Console.ReadLine();
         }
+
     }
 
     //Listing 1-5 Using the ThreadStaticAttribute
@@ -102,4 +109,73 @@ namespace Exam.Objective1_1
             t2.Start();
         }
     }
+
+    public class TaskDemos
+    {
+
+        //listing 1-8 Starting a new Task
+        public static void NewTask()
+        {
+            Task t = Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    Console.WriteLine("*");
+                }
+            });
+            t.Wait();
+        }
+
+        public static void StartThreadMethod1_8()
+        {
+            Task t = Task.Run(action: ThreadMethod1_8);
+
+            t.Wait();
+        }
+
+        public static void ThreadMethod1_8()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine("*");
+            }
+        }
+
+        // Listing 1-9 using a Task that returns a value
+        public static void UsingTaskReturnValue()
+        {
+            Task<int> t = Task.Run(() =>
+                {
+                    return 42;
+                });
+            Console.WriteLine(t.Result);
+        }
+
+        // Listing 1-10 Adding Continuation
+        public static void AddingContinuation()
+        {
+            Task<int> t = Task.Run(() =>
+            {
+                return 42;
+            }).ContinueWith((i) =>
+                {
+                    return i.Result * 2;
+                });
+            Console.WriteLine(t.Result);
+
+            t.ContinueWith((i) =>
+                {
+                    return i.Result * 2;
+                });
+            Console.WriteLine(t.Result);
+
+            t = t.ContinueWith((i) =>
+            {
+                return i.Result * 2;
+            });
+            Console.WriteLine(t.Result);
+        }
+
+    }
+
 }
