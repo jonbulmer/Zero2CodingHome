@@ -176,6 +176,73 @@ namespace Exam.Objective1_1
             Console.WriteLine(t.Result);
         }
 
+        // Listing 1-11 Scheduling different continuation tasks
+        public static void SchedulingDifferentContinuationTasks()
+        {
+            Task<int> t = Task.Run(() =>
+                {
+                    return 42;
+                });
+            t.ContinueWith((i) =>
+                {
+                    Console.WriteLine("Faulted");
+                },TaskContinuationOptions.OnlyOnFaulted);
+        }
+
+        public class TaskContinuationOption
+        {
+            //Listing 1-12 Attaching child task to parent task
+            public static void AttachingChildToParentTask()
+            {
+                Task<Int32[]> parent = Task.Run(() =>
+                {
+                    var result = new Int32[3];
+                    new Task(() => result[0] = 0,
+                        TaskCreationOptions.AttachedToParent).Start();
+                    new Task(() => result[1] = 1,
+                         TaskCreationOptions.AttachedToParent).Start();
+                    new Task(() => result[2] = 2,
+                         TaskCreationOptions.AttachedToParent).Start();
+
+                    return result;
+                });
+
+                var finalTask = parent.ContinueWith(
+                    parentTask => {
+                        foreach(int i in parentTask.Result)
+                            Console.WriteLine(i);
+                    });
+
+                finalTask.Wait();
+            }
+
+            //Listing 1-13 Using a TaskFactory 
+            public static void UsingTaskFactory()
+            {
+                Task<Int32[]> parent = Task.Run(() =>
+                {
+                    var result = new Int32[3];
+                    TaskFactory tf = new TaskFactory(TaskCreationOptions.AttachedToParent,
+                        TaskContinuationOptions.ExecuteSynchronously);
+
+                tf.StartNew(() => result[0] = 0);
+                tf.StartNew(() => result[1] = 1);
+                tf.StartNew(() => result[2] = 2);
+                
+                return result;
+                });
+
+                var finalTask = parent.ContinueWith(
+                    parentTask => {
+                        foreach (int i in parentTask.Result)
+                            Console.WriteLine(i);
+                    });
+
+                finalTask.Wait();
+            }
+        }
     }
+
+
 
 }
