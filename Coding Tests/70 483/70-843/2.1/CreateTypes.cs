@@ -34,6 +34,8 @@ namespace Exam.Objective2_1
                 }
             }
 
+
+            // Lsting 2-2 Creatinga custom strut
             public struct Point
             {
                 public int x, y;
