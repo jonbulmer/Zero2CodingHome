@@ -33,19 +33,19 @@ namespace Exam.Objective2_1
                     Console.WriteLine($"You must do this now as it is {value} ");
                 }
             }
-
-
-            // Lsting 2-2 Creatinga custom strut
-            public struct Point
-            {
-                public int x, y;
-
-                public Point(int p1, int p2)
-                {
-                    x = p1;
-                    y = p2;
-                }
-            }
         }
     }
+
+    // Lsting 2-2 Creatinga custom strut
+    public struct Point
+    {
+        public int x, y;
+
+        public Point(int p1, int p2)
+        {
+            x = p1;
+            y = p2;
+        }
+    }
+}
 }
