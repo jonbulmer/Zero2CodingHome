@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.Common;
+using System.Data.SqlTypes;
+using System.Data.SqlClient;
 using System.IO;
 using System.Net.Http;
 using System.Text;
@@ -42,7 +46,43 @@ namespace Exam.Objective2_2
 
             Dog d1 = (Dog)a;
         }
+
+        //Listing2-25 Using an implicit and explicit cast operator on a custom type
+        public static void UsingAnImplicitAndExplicitCastOperatorOnCustomType()
+        {
+            Money m = new Money(42.42M);
+            decimal amount = m;
+            int truncteAmount = (int)m;
+        }
+
+        // Listing 2-26 Using the built-in Convert and Parse method
+        public static void UsingTheBuildinConvertAndParseMethod()
+        {
+            int value = Convert.ToInt32("42");
+            value = int.Parse("42");
+            bool success = int.TryParse("42", out value);
+        }
+
+        // List 2-27 Using the is and as operator
+        public static void UsingTheIsAndAsOperator(DbConnection connection)
+        {
+            Animal a = new Animal();
+            if (a is Dog)
+            {
+                Dog d1 = (Dog)a;
+            }
+
+            Dog d = a as Dog;
+            if (d != null)
+            {
+                d.Bark();
+            }
+
+
+            // Listing 2-29 Creating a custom DynamicObject
+        }
     }
+
 
     class Animal
     {
@@ -53,6 +93,30 @@ namespace Exam.Objective2_2
     {
         public void Bark()
         {
+            Console.WriteLine("woof");
         }
     }
+
+    // Listing 2-24 Implement an implicit and explicit convertion operator
+    public class Money
+    {
+        public decimal Amount { get; set; }
+
+        public Money(decimal amount)
+        {
+            Amount = amount;
+        }
+
+        public static implicit operator decimal(Money money)
+        {
+            return money.Amount;
+        }
+
+        public static explicit operator int(Money money)
+        {
+            return (int)money.Amount;
+        }
+    }
+
+
 }
