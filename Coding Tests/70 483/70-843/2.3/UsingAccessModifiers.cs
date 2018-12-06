@@ -55,6 +55,11 @@ namespace Exam.Objective2_3
         {
             _protectedField = 43;
 
+            string dhis2ApiUserName = "";
+            string dhis2ApiPwd = "";
+
+            string s = string.Format($"{dhis2ApiUserName}:{dhis2ApiPwd}");
+
             MyProtectedMethod();
         }
     }

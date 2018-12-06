@@ -1,0 +1,4 @@
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Release\netcoreapp2.0\70-843.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Release\netcoreapp2.0\70-843.csproj.CoreCompileInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Release\netcoreapp2.0\70-843.AssemblyInfoInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Release\netcoreapp2.0\70-843.AssemblyInfo.cs
