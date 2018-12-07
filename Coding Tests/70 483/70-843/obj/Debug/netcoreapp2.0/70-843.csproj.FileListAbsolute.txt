@@ -2,3 +2,7 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Debug\netcoreapp2.0\70-843.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Debug\netcoreapp2.0\70-843.AssemblyInfoInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\obj\Debug\netcoreapp2.0\70-843.AssemblyInfo.cs
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\bin\Debug\netcoreapp2.0\70-843.deps.json
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\bin\Debug\netcoreapp2.0\70-843.runtimeconfig.json
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\bin\Debug\netcoreapp2.0\70-843.runtimeconfig.dev.json
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\70 483\70-843\bin\Debug\netcoreapp2.0\70-843.dll
