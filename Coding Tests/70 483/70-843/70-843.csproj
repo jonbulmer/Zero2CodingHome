@@ -6,11 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="4.6.0-preview.18571.3" />
   </ItemGroup>
 
 </Project>

@@ -1,14 +1,25 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "a4458087e3b3660ded171d17a888e3f84c1a65d0"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "70-843/1.0.0": {
+        "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1"
+        },
         "runtime": {
           "70-843.dll": {}
+        }
+      },
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.50905.0"
+          }
         }
       }
     }
@@ -18,6 +29,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pn7IMmDyYRwFE316nnMs27GmedPAnjmOfWalWTO+pJkt6JMwdNDQ3yNbWTYG+7zmUU8P4JxhODhXQygDNGvCWQ==",
+      "path": "microsoft.codedom.providers.dotnetcompilerplatform/2.0.1",
+      "hashPath": "microsoft.codedom.providers.dotnetcompilerplatform.2.0.1.nupkg.sha512"
     }
   }
 }
