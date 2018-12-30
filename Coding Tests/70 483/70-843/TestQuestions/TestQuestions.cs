@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Text;
+using System.Runtime.InteropServices;
 
 namespace Exam.TestQuestions
 {
@@ -19,5 +20,32 @@ namespace Exam.TestQuestions
         {
             q.Add(data);
         }
+    }
+
+    public class Unmanaged : IDisposable
+    {
+        private SafeHandle resource;
+        public Unmanaged()
+        {
+
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+        public void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (resource != null)
+                {
+                    resource.Dispose();
+                }
+
+            }
+        }
+
     }
 }
