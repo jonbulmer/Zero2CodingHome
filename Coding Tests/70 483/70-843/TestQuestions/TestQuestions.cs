@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace Exam.TestQuestions
 {
@@ -46,6 +48,26 @@ namespace Exam.TestQuestions
 
             }
         }
+    }
 
+    public class ProcessPDFFiles
+    {
+        public async Task ProcessPdfFiles(List<string> files)
+        {
+            foreach (string file in files)
+            {
+                using (StreamReader reader = new StreamReader(file))
+                {
+                    String data = await reader.ReadLineAsync();
+                    ProcessData(data);
+                }
+            }
+            Console.WriteLine("Processing Complete");
+        }
+
+        private void ProcessData(string data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
