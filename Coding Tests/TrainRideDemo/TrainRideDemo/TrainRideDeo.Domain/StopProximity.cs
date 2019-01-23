@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainRideDemo.Data
+namespace TrainRideDeo.Domain
 {
-    public class Class1
+    public class StopProximity
     {
+        public int Id { get; set; }
     }
 }

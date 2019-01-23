@@ -7,7 +7,7 @@
     <ProjectGuid>{AB5C15F9-8DC0-45EB-861E-5F05D876DBF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TrainRideDeo.Domain</RootNamespace>
+    <RootNamespace>TrainRideDemo.Domain</RootNamespace>
     <AssemblyName>TrainRideDemo.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StopProximity.cs" />
     <Compile Include="Stops.cs" />
   </ItemGroup>
   <ItemGroup>
