@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38C326A6-54AE-4F92-826B-8796E6305834}</ProjectGuid>
+    <ProjectGuid>{722B1613-46B5-4F09-AFB5-D0CF7E231FDF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TrainRideDemo.Data</RootNamespace>
     <AssemblyName>TrainRideDemo.Data</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -118,7 +117,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StopContext.cs" />
+    <Compile Include="TrainRideDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,8 +125,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TrainRideDeo.Domain\TrainRideDemo.Domain.csproj">
-      <Project>{ab5c15f9-8dc0-45eb-861e-5f05d876dbf2}</Project>
+    <ProjectReference Include="..\TrainRideDemo.Domain\TrainRideDemo.Domain.csproj">
+      <Project>{4ad74980-a05f-4a5e-8bf2-852a0e7ce711}</Project>
       <Name>TrainRideDemo.Domain</Name>
     </ProjectReference>
   </ItemGroup>
