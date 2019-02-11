@@ -1,0 +1,291 @@
+[33mcommit ab6a720c1d1b3ef2e1c29c27906d5e9ca42ed6bd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Jan 23 21:30:11 2019 +0000
+
+    Adding the Stop and Stop Proximity classes
+
+[33mcommit fec696f2d8cd3bcc6ddaf0996434066032c07067[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Jan 22 22:20:35 2019 +0000
+
+    Sorting out Entity Framework
+
+[33mcommit a67637b461a1d5b03a921c8d2bda4e24a1b82d2f[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Jan 21 21:27:16 2019 +0000
+
+    getting strated with the train ride
+
+[33mcommit af9d46b08484f102562cac1ed4e032987d74ed3b[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Jan 17 19:58:03 2019 +0000
+
+    more questions
+
+[33mcommit d5feacf4b30eb350adbd88f97419a4cae8d8d55a[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Jan 2 21:24:57 2019 +0000
+
+    Create q8.jpg
+
+[33mcommit 3b4da0ae2a2739b9b24ecec5ab3dad867e880d51[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Jan 1 14:21:14 2019 +0000
+
+    Create q7.jpg
+
+[33mcommit 2aaa0685982fe5fef8acf5437ecaf84be4d2adac[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Sun Dec 30 16:59:01 2018 +0000
+
+    Adding Unmanaged demo code
+
+[33mcommit 417a96601f530dbcdc1ab17c5d72c072952ae776[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Dec 27 18:43:15 2018 +0000
+
+    add question
+
+[33mcommit be5c325aefb91ee05d6223064b7698a0b5c248e3[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 25 16:05:01 2018 +0000
+
+    adding question and code
+
+[33mcommit b3b87393cb607f09e1d822ad3ff8aeba7a8a4fad[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Dec 20 22:31:59 2018 +0000
+
+    add to questions
+
+[33mcommit c19d374b9dda0985612e994a2a977f365d581f46[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 12 20:56:49 2018 +0000
+
+    Logging and tracing
+
+[33mcommit 4dceb0cf0edcae7c1d9eb5f0a2b5abd6e77c69a3[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Dec 10 14:59:46 2018 +0000
+
+    Work with chapter 3
+
+[33mcommit d4096a2682deb29be34adf843200242171a62a07[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Dec 7 10:39:22 2018 +0000
+
+    Using  CodeDom
+
+[33mcommit 1327c8090ad5646571f925779ed2eef90f567c91[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Dec 7 10:04:44 2018 +0000
+
+    using Reflection
+
+[33mcommit 4682f13a5bace8445c078102b1ab024258043548[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Dec 7 09:56:04 2018 +0000
+
+    Creating andusing attributes
+
+[33mcommit b27bc2d10aba806525da35b3fcc8378e78d5d825[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Dec 6 22:04:59 2018 +0000
+
+    C sharp 6 part 1
+
+[33mcommit 6182c34c17d203767e08fdc217a298a10bcd0c14[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Dec 6 18:11:53 2018 +0000
+
+    Create and use base class
+
+[33mcommit ecea9876646f914911df46c7d8054d36ac40f6c6[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Dec 6 11:12:29 2018 +0000
+
+    Using access modifiers and explicit interfaces
+
+[33mcommit d5ff63cbfe4c7da46fcbfe65fb2ccf6f56670670[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 5 21:40:02 2018 +0000
+
+    Cnversions
+
+[33mcommit 889a07999127a25ea5a51786e5441c2dbfd715d4[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 5 13:54:37 2018 +0000
+
+    Converting between different types
+
+[33mcommit 1531c568488ba223553e04ed5b8598daccd32150[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 5 13:11:25 2018 +0000
+
+    boxing and unboxing
+
+[33mcommit 70829a54523bcf76efcffbc6c1fa105846ccc4e0[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 5 12:02:42 2018 +0000
+
+    set up objective 2-1
+
+[33mcommit d85b9ebd84fa1fba9024f47dbee9bb7fa402d2bc[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Dec 5 11:48:00 2018 +0000
+
+    Creating Types and giving types sody
+
+[33mcommit b961f23cf6bf22acad823dfe85ac26a3133f1727[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 4 22:46:46 2018 +0000
+
+    enum and struc
+
+[33mcommit dbbfc51ac3bffa423be6b7602c8188fe1b97193d[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 4 17:05:11 2018 +0000
+
+    Exceptions
+
+[33mcommit 914b27f3020250325bc16373f824cae0cda3c78b[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 4 16:11:48 2018 +0000
+
+    Events
+
+[33mcommit f506511469669981600fa03a0100441107f261f8[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 4 14:51:42 2018 +0000
+
+    Lamba expressions
+
+[33mcommit 826b757e7b467661c3b7b0394ca6cd216df68b78[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Dec 4 14:19:37 2018 +0000
+
+    Delegates
+
+[33mcommit e69c58f4b9a589eb12aabf12a361adc0c1c6da3e[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Dec 3 17:26:45 2018 +0000
+
+    Added Cancellation Token
+
+[33mcommit f041f237f00dbf42bc576f6bb502dbb018b25b9c[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Dec 3 16:34:07 2018 +0000
+
+    Work with interlocking
+
+[33mcommit 1096fd1a6cedf899a1ad243e6224ba214c618021[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Dec 3 16:06:58 2018 +0000
+
+    Locking and the volatile key word
+
+[33mcommit 2fb72b5b590c60038b5faa0797054dc2d0318c27[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Sun Dec 2 13:11:32 2018 +0000
+
+    multi Threading
+
+[33mcommit bb2b106428617f053bc3e193e6f003c7475b25c4[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Sat Dec 1 11:17:01 2018 +0000
+
+    more updates to threads
+
+[33mcommit 43d196e67ebd90ed939ea8b9699705e13197d916[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Nov 30 14:06:06 2018 +0000
+
+    Add WaitAll and WaitAny
+
+[33mcommit e83f929a22dfb57616190dbe1826c452f5e70a4b[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Nov 29 10:45:52 2018 +0000
+
+    More work with threads
+
+[33mcommit b9e42040a68ac19471d1d566e7bfa86f86ae36ba[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Nov 28 09:45:53 2018 +0000
+
+    More Thread and task work
+
+[33mcommit 6efaf83269499cccf22f4d0551eb909b3136a519[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Nov 27 11:10:49 2018 +0000
+
+    Understanding ThreadStatic
+
+[33mcommit 0463770dd5eaec2c2386558dabb5c86fc0c748d8[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Nov 26 16:46:25 2018 +0000
+
+    parameterized Threads and Thread stop
+
+[33mcommit 6c662e227f38c9dd796550e64605fa26265dbcbd[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Sun Nov 25 14:42:32 2018 +0000
+
+    adding som program control
+
+[33mcommit 525b7109d7e7ac452361dca1f118d306f560bea2[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Nov 23 07:55:19 2018 +0000
+
+    more debuging demos
+
+[33mcommit ad94f593d97611427c1d7ae07d8748a794703801[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Nov 22 11:46:41 2018 +0000
+
+    debug warrings and line number
+
+[33mcommit 9d3a8de7435976572ffc31b974b2de2b990ee2f3[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Nov 21 07:52:52 2018 +0000
+
+    Debug symbols
+
+[33mcommit b4054a5dd4761ed8c5264dfbc3a846e290098bd5[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Nov 20 19:43:47 2018 +0000
+
+    Debug applications
+
+[33mcommit 85589b8696899bb23b8de48b34fd62a52b6d6ee8[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Tue Nov 20 08:06:38 2018 +0000
+
+    Giving Types Body
+
+[33mcommit 3e96f1e4a56c20013c4ff9dd579e1392848f8bca[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Mon Nov 19 07:22:31 2018 +0000
+
+    Enum and struct
+
+[33mcommit 21b99deaad57a87511db1f123eaf5c0fb3ce5157[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Sun Nov 18 10:37:15 2018 +0000
+
+    Using a Background Thread
+
+[33mcommit 0e4ede48f061ebe25a88efa518fe20772fe94df4[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Fri Nov 16 07:31:03 2018 +0000
+
+    Understanding Threads and Parallel tasks
+
+[33mcommit e1dca69cf60b7e69e7c33d21c4658cd4c42947f6[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Thu Nov 15 07:21:18 2018 +0000
+
+    Validation Results EF
+
+[33mcommit 8516019bc3fdb87e272b179df2538db7bd29fc00[m
+Author: Jon Bulmer <jon.bulmer@gmail.com>
+Date:   Wed Nov 14 07:41:48 2018 
