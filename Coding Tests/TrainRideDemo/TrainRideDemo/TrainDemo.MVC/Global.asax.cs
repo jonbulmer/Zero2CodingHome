@@ -1,10 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Reflection;
+using System.ServiceModel;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Autofac;
+using Autofac.Integration.Mvc;
+using TrainDemo.MVC.Models;
 
 namespace TrainDemo.MVC
 {
@@ -12,10 +15,42 @@ namespace TrainDemo.MVC
     {
         protected void Application_Start()
         {
+
+            RegisterAutoFac();
+ 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+        }
+        private void RegisterAutoFac()
+        {
+            var builder = new ContainerBuilder();
+
+            builder.RegisterControllers(typeof(MvcApplication).Assembly);
+
+            // OPTIONAL: Register model binders that require DI.
+            builder.RegisterModelBinders(typeof(MvcApplication).Assembly);
+            builder.RegisterModelBinderProvider();
+
+            // OPTIONAL: Register web abstractions like HttpContextBase.
+            builder.RegisterModule<AutofacWebTypesModule>();
+
+            // OPTIONAL: Enable property injection in view pages.
+            builder.RegisterSource(new ViewRegistrationSource());
+
+            // OPTIONAL: Enable property injection into action filters.
+            builder.RegisterFilterProvider();
+
+            builder.RegisterType<LiveTrainsViewModel>().As<ILiveTrainsViewModel>();
+
+            // Set the dependency resolver to be Autofac.
+            var container = builder.Build();
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+
+
+
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.pdb
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csproj.CoreCompileInputs.cache
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.pdb
