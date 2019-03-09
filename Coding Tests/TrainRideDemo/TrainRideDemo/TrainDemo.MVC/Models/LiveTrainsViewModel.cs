@@ -24,5 +24,5 @@ namespace TrainDemo.MVC.Models
         public List<ArrivalTime> ArrivalTime { get; set; }
     }
 
-    public class List<L>
+   
 }

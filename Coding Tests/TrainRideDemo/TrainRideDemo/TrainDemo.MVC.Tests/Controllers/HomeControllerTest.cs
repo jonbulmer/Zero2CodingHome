@@ -16,7 +16,7 @@ namespace TrainDemo.MVC.Tests.Controllers
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            TrainDashboardController controller = new TrainDashboardController();
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
@@ -29,7 +29,7 @@ namespace TrainDemo.MVC.Tests.Controllers
         public void About()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            TrainDashboardController controller = new TrainDashboardController();
 
             // Act
             ViewResult result = controller.About() as ViewResult;
@@ -42,7 +42,7 @@ namespace TrainDemo.MVC.Tests.Controllers
         public void Contact()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            TrainDashboardController controller = new TrainDashboardController();
 
             // Act
             ViewResult result = controller.Contact() as ViewResult;

@@ -1,0 +1,38 @@
+﻿@using TrainDemo.MVC.Models
+
+@model IEnumerable<LiveTrainsViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2> List of Live Trains </h2>
+
+@*A nice simple form for the output *@
+<table>
+    <tr>
+        <th>
+            A
+        </th>
+        <th>
+            B
+        </th>
+        <th>
+            C
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrivalTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RouteName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrainName)
+            </td>
+        </tr>
+    }
+</table>

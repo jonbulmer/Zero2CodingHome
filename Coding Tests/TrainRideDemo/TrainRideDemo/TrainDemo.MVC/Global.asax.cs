@@ -43,7 +43,7 @@ namespace TrainDemo.MVC
             // OPTIONAL: Enable property injection into action filters.
             builder.RegisterFilterProvider();
 
-            builder.RegisterType<LiveTrainsViewModel>().As<ILiveTrainsViewModel>();
+            builder.RegisterType<TrainDashboardDisplay>().As<ITrainDashboardDisplay>();
 
             // Set the dependency resolver to be Autofac.
             var container = builder.Build();

@@ -4,3 +4,8 @@ C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDem
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csproj.CoreCompileInputs.cache
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.dll
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.pdb
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.dll.config
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.xml
+C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.SqlServer.xml
