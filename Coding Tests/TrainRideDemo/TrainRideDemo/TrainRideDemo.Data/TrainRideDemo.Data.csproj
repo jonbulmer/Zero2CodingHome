@@ -146,18 +146,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrivalTime.cs" />
+    <Compile Include="Route.cs" />
+    <Compile Include="Stop.cs" />
+    <Compile Include="StopDetail.cs" />
+    <Compile Include="StopMaxtrix.cs" />
+    <Compile Include="StopProcedure.cs" />
+    <Compile Include="StopProximity.cs" />
+    <Compile Include="TimeTable.cs" />
+    <Compile Include="Train.cs" />
+    <Compile Include="TrainPosition.cs" />
     <Compile Include="TrainRideDemoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TrainRideDemo.Domain\TrainRideDemo.Domain.csproj">
-      <Project>{4ad74980-a05f-4a5e-8bf2-852a0e7ce711}</Project>
-      <Name>TrainRideDemo.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

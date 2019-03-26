@@ -1,0 +1,14 @@
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\FriendStorage.DataAccess.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\FriendStorage.DataAccess.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\FriendStorage.Model.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\FriendStorage.Model.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.csproj.CopyComplete
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.DataAccess\obj\Debug\FriendStorage.DataAccess.pdb

@@ -7,7 +7,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
-using TrainDemo.MVC.Models;
+using TrainDemo.Domain;
 
 namespace TrainDemo.MVC
 {
@@ -43,7 +43,7 @@ namespace TrainDemo.MVC
             // OPTIONAL: Enable property injection into action filters.
             builder.RegisterFilterProvider();
 
-            builder.RegisterType<TrainDashboardDisplay>().As<ITrainDashboardDisplay>();
+            builder.RegisterType<LiveTrainsService>().As<ILiveTrainsService>();
 
             // Set the dependency resolver to be Autofac.
             var container = builder.Build();

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TrainDemo.MVC.Models;
+using TrainDemo.Domain.Service;
 using System.Web.Mvc;
 
 namespace TrainDemo.MVC.Controllers
@@ -9,8 +9,8 @@ namespace TrainDemo.MVC.Controllers
     public class TrainDashboardController : Controller
     {
 
-        readonly ITrainDashboardDisplay trainDash;
-        public TrainDashboardController(ITrainDashboardDisplay trainDashRepo)
+        readonly ILiveTrainsService trainDash;
+        public TrainDashboardController(ILiveTrainsService trainDashRepo)
         {
             trainDash = trainDashRepo;
         }

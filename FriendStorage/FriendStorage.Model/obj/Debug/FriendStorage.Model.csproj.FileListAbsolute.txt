@@ -1,0 +1,12 @@
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\bin\Debug\FriendStorage.Model.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\bin\Debug\FriendStorage.Model.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.csproj.CoreCompileInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\5-wpf-mvvm-test-driven-development-viewmodels-m5-exercise-files\before\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\bin\Debug\FriendStorage.Model.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\bin\Debug\FriendStorage.Model.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.csproj.CoreCompileInputs.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\FriendStorage\FriendStorage.Model\obj\Debug\FriendStorage.Model.pdb

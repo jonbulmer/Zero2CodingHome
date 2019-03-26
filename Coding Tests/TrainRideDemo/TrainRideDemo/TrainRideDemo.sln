@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRideDemo.Domain", "Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRideDemo.Data", "TrainRideDemo.Data\TrainRideDemo.Data.csproj", "{722B1613-46B5-4F09-AFB5-D0CF7E231FDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRideDemo.Tests", "TrainRideDemo.Tests\TrainRideDemo.Tests.csproj", "{06746FF7-797B-4ADC-88FB-68FC25E5FF25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRideDemo.Domain.Tests", "TrainRideDemo.Tests\TrainRideDemo.Domain.Tests.csproj", "{06746FF7-797B-4ADC-88FB-68FC25E5FF25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainDemo.MVC", "TrainDemo.MVC\TrainDemo.MVC.csproj", "{8314EB5A-B94A-48DB-A449-5B88FD7761CE}"
 EndProject

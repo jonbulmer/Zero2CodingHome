@@ -148,9 +148,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\LiveTrainsViewModel.cs" />
-    <Compile Include="Models\StopsDetails.cs" />
-    <Compile Include="Models\TrainDashboardDisplay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -187,11 +184,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\TrainDashboard\About.cshtml" />
     <Content Include="Views\TrainDashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -207,10 +204,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TrainRideDemo.Data\TrainRideDemo.Data.csproj">
-      <Project>{722b1613-46b5-4f09-afb5-d0cf7e231fdf}</Project>
-      <Name>TrainRideDemo.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TrainRideDemo.Domain\TrainRideDemo.Domain.csproj">
       <Project>{4ad74980-a05f-4a5e-8bf2-852a0e7ce711}</Project>
       <Name>TrainRideDemo.Domain</Name>

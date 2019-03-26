@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using TrainRideDemo.Domain;
 using Autofac;
 
 namespace TrainRideDemo.Data
