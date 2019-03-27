@@ -31,7 +31,7 @@ namespace TrainDemo.Domain.Service
 
         public List<LiveTrainsViewModel> GetAllLiveTrains()
         {
-            //return tctx.StopMaxtrixs;
+            var trains = tctx.StopMaxtrixs;
             return liveTrains;
         }
 

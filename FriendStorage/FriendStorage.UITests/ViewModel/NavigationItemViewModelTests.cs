@@ -16,17 +16,7 @@ namespace FriendStorage.UITests.ViewModel
         [Fact]
         public void ShouldPublishOpenFriendEditViewEvent()
         {
-            const int friendId = 7;
-            var eventMock = new Mock<OpenFriendEditViewEvent>();
-            var eventAggegatorMock = new Mock<IEventAggregator>();
-            eventAggegatorMock.Setup(ea => ea.GetEvent<OpenFriendEditViewEvent>())
-                .Returns(eventMock.Object);
-
-            var viewModel = new NavigationItemViewModel(friendId, "Jon", eventAggegatorMock.Object);
-
-            viewModel.OpenFriendEditViewCommand.Execute(null);
-
-            eventMock.Verify(e => e.Publish(friendId), Times.Once);
+            
         }  
     }
 }
