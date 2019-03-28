@@ -24,8 +24,8 @@ namespace FriendStorage.UI.ViewModel
 
         private void OnFriendEditViewExecute(object obj)
         {
-           
-            //throw new NotImplementedException();
+
+            _eventAggregator.GetEvent<OpenFriendEditViewEvent>().Publish(Id);
         }
 
         public int Id { get; private set; }

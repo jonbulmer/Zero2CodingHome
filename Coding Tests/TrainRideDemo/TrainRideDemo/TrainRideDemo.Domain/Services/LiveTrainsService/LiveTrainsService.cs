@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using TrainRideDemo.Data;
 using TrainRideDemo.Domain.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace TrainDemo.Domain.Service
 {
@@ -31,7 +32,8 @@ namespace TrainDemo.Domain.Service
 
         public List<LiveTrainsViewModel> GetAllLiveTrains()
         {
-            var trains = tctx.StopMaxtrixs;
+            var trains = GetWith_Stop(1);
+
             return liveTrains;
         }
 
@@ -81,5 +83,14 @@ namespace TrainDemo.Domain.Service
         {
             throw new NotImplementedException();
         }
+
+
+        public StopMaxtrix GetWith_Stop(int id)
+        {
+            return tctx.StopMaxtrixs
+                .Include(s => s.StopProximityId)
+                .Where(sm => sm.Id == id).FirstOrDefault();
+        }
+
     }
 }

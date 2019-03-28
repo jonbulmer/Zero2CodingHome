@@ -9,14 +9,14 @@ namespace TrainDemo.MVC.Controllers
     public class TrainDashboardController : Controller
     {
 
-        readonly ILiveTrainsService trainDash;
-        public TrainDashboardController(ILiveTrainsService trainDashRepo)
+        readonly ILiveTrainsService _trainService;
+        public TrainDashboardController(ILiveTrainsService trainService)
         {
-            trainDash = trainDashRepo;
+            _trainService = trainService;
         }
         public ActionResult Index()
         {
-            var data = trainDash.GetAllLiveTrains();
+            var data = _trainService.GetAllLiveTrains();
             return View(data);
         }
     }

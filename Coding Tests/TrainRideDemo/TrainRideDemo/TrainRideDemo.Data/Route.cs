@@ -19,7 +19,6 @@ namespace TrainRideDemo.Data
 
  
         public ICollection<StopMaxtrix> StopMaxtrixes  { get; set; }
-]
         public ICollection<TimeTable> TimeTables { get; set; }
 
     }

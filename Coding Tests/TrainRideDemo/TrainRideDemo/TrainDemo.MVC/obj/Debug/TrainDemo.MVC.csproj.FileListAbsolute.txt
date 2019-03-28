@@ -96,9 +96,6 @@ C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDem
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.Relational.xml
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.csprojAssemblyReference.cache
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.csproj.CoreCompileInputs.cache
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.pdb
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\ApplicationInsights.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainDemo.MVC.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainDemo.MVC.dll
@@ -123,10 +120,11 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Web.WebPages.Deployment.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Web.WebPages.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Web.WebPages.Razor.dll
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Domain.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\WebGrease.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\FluentValidation.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\netstandard.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -150,8 +148,6 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Numerics.Vectors.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Buffers.dll
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.pdb
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Domain.pdb
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Domain.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Autofac.pdb
@@ -172,7 +168,10 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\TrainRideDemo.Data.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\FluentValidation.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\Microsoft.Extensions.Logging.Abstractions.xml
@@ -193,5 +192,8 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Numerics.Vectors.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\bin\System.Buffers.xml
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.csprojAssemblyReference.cache
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.csproj.CopyComplete
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.dll
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainDemo.MVC\obj\Debug\TrainDemo.MVC.pdb

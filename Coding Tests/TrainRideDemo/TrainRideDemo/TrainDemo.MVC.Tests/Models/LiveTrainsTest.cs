@@ -3,9 +3,9 @@ using System.Text;
 using System.Collections.Generic;
 using NUnit.Framework;
 using NSubstitute;
-using TrainDemo.MVC.Models;
+using TrainDemo.Domain;
 
-namespace TrainDemo.MVC.Tests.Models
+namespace TrainDemo.MVC.Tests
 {
 
    [TestFixture]

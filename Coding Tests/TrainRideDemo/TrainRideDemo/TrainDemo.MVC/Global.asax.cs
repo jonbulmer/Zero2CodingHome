@@ -7,7 +7,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
-using TrainDemo.Domain;
+using TrainDemo.Domain.Service;
 
 namespace TrainDemo.MVC
 {
