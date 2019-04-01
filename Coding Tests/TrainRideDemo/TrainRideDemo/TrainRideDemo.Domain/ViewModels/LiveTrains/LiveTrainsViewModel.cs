@@ -20,7 +20,7 @@ namespace TrainDemo.Domain
         public string TrainName { get; set; }
         public string RouteName { get; set; }
         public List<TimeTable> TimeTable { get; set; }
-        public List<StopDetail> StopDetail { get; set; }
+        public List<StopMaxtrix> StopMaxtrix { get; set; }
         public List<ArrivalTime> ArrivalTime { get; set; }
     }
 

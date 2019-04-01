@@ -12,13 +12,13 @@ namespace TrainRideDemo.Data
     {
         public Route()
         {
-            StopMaxtrixes = new HashSet<StopMaxtrix>();
+            StopMaxtrixs = new HashSet<StopMaxtrix>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
 
  
-        public ICollection<StopMaxtrix> StopMaxtrixes  { get; set; }
+        public ICollection<StopMaxtrix> StopMaxtrixs  { get; set; }
         public ICollection<TimeTable> TimeTables { get; set; }
 
     }

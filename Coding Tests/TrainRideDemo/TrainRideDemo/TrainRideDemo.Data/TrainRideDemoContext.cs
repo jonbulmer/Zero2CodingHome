@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Configuration;
 using Autofac;
@@ -24,14 +23,29 @@ namespace TrainRideDemo.Data
             return new TrainRideDemoContext();
         }
 
-        public DbSet<Stop> Stop { get; set; }
-        public DbSet<StopProximity> StopProximities { get; set; }
-        public DbSet<StopMaxtrix> StopMaxtrixs { get; set; }
-        public DbSet<Stop> Stops { get; set; }
+        public virtual DbSet<Route> Routes { get; set; }
+        public virtual DbSet<StopProximity> StopProximities { get; set; }
+        public virtual DbSet<StopMaxtrix> StopMaxtrixs { get; set; }
+        public virtual DbSet<Stop> Stops { get; set; }
+        public virtual DbSet<TimeTable> TimeTables { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
+            //builder.Conventions.Remove<PluralizingTableNameConvention>();
 
+            builder.Entity<StopMaxtrix>(entity =>
+            {
+                entity.HasOne(d => d.StopProximity)
+                .WithMany(p => p.StopMaxtrixs)
+                .HasForeignKey(d => d.StopProximityId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+        
+                entity.HasOne(d => d.Route)
+                .WithMany(p => p.StopMaxtrixs)
+                .HasForeignKey(d => d.RouteId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+            });
         }
     }
 }

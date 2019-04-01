@@ -16,6 +16,13 @@ namespace TrainDemo.Domain.Service
 
     }
 
+    public interface ICalculator
+    {
+        int Add(int a, int b);
+        string Mode { get; set; }
+            event EventHandler PoweringUp;
+    }
+
     public class LiveTrainsService : IBaseService<TimeTable>, ILiveTrainsService
     {
 
@@ -32,7 +39,7 @@ namespace TrainDemo.Domain.Service
 
         public List<LiveTrainsViewModel> GetAllLiveTrains()
         {
-            var trains = GetWith_Stop(1);
+            GetWith_Stop(3);
 
             return liveTrains;
         }
@@ -85,11 +92,15 @@ namespace TrainDemo.Domain.Service
         }
 
 
-        public StopMaxtrix GetWith_Stop(int id)
+        public void GetWith_Stop(int id)
         {
-            return tctx.StopMaxtrixs
-                .Include(s => s.StopProximityId)
-                .Where(sm => sm.Id == id).FirstOrDefault();
+            var dbData = tctx.TimeTables
+                .Include(t => t.Route)
+                .ThenInclude(sm => sm.StopMaxtrixs)
+                .Include(t => t.Route)
+                .ThenInclude(sm => sm.StopMaxtrixs)
+                .Include(sm => sm. )
+                
         }
 
     }

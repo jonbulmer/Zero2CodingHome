@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrainRideDemo.Data
 {
@@ -13,12 +15,20 @@ namespace TrainRideDemo.Data
     }
     public class StopMaxtrix : IStopMaxtrix
     {
+        public ICollection<ArrivalTime> ArrivalTimes { get; set; }
+        public StopMaxtrix()
+        {
+            ArrivalTimes = new HashSet<ArrivalTime>(); 
+        }
+
         [Key]
         public int Id { get; set; }
         public int RouteId { get; set; }
+        [ForeignKey("RouteId")]
         public Route Route { get; set; }
         public int PositionIndex { get; set; }
         public int StopProximityId { get; set; }
+        [ForeignKey("StopProximityId")]
         public StopProximity StopProximity { get; set; }
     }
 }
