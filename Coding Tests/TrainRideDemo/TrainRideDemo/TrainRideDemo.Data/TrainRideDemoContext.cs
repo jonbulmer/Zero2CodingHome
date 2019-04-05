@@ -23,6 +23,7 @@ namespace TrainRideDemo.Data
             return new TrainRideDemoContext();
         }
 
+        public virtual DbSet<ArrivalTime> ArrivalTimes { get; set; }
         public virtual DbSet<Route> Routes { get; set; }
         public virtual DbSet<StopProximity> StopProximities { get; set; }
         public virtual DbSet<StopMaxtrix> StopMaxtrixs { get; set; }
@@ -44,6 +45,14 @@ namespace TrainRideDemo.Data
                 entity.HasOne(d => d.Route)
                 .WithMany(p => p.StopMaxtrixs)
                 .HasForeignKey(d => d.RouteId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+            });
+
+            builder.Entity<ArrivalTime>(entity =>
+            {
+                entity.HasOne(d => d.StopMaxtrix)
+                .WithMany(p => p.ArrivalTimes)
+                .HasForeignKey(d => d.StopMaxtrixId)
                 .OnDelete(DeleteBehavior.ClientSetNull);
             });
         }

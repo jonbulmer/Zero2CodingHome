@@ -21,7 +21,7 @@ namespace TrainRideDemo.Data
         public int Id { get; set; }
         public DateTime TimeArrived { get; set; }
         public int StopMaxtrixId { get; set; }
-        [ForeignKey("StopMaxtrix")]
+        [ForeignKey("StopMaxtrixId")]
         public StopMaxtrix StopMaxtrix { get; set; }
     }
 }

@@ -96,11 +96,14 @@ namespace TrainDemo.Domain.Service
         {
             var dbData = tctx.TimeTables
                 .Include(t => t.Route)
-                .ThenInclude(sm => sm.StopMaxtrixs)
-                .Include(t => t.Route)
-                .ThenInclude(sm => sm.StopMaxtrixs)
-                .Include(sm => sm. )
-                
+                .Include(t => t.Route.StopMaxtrixs)
+                .ThenInclude(sm => sm.ArrivalTimes)
+                .ToList();
+
+            foreach (var item in dbData)
+            {
+                liveTrains.Add(new LiveTrainsViewModel { RouteName = item.Route.Name, StopMaxtrix = item.Route.StopMaxtrixs.ToList() });
+            }         
         }
 
     }
