@@ -9,6 +9,7 @@ C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDem
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.xml
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\TrainRideDemo.Domain.pdb
@@ -163,7 +164,6 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csprojAssemblyReference.cache
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.csproj.CopyComplete
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Domain\obj\Debug\TrainRideDemo.Domain.pdb

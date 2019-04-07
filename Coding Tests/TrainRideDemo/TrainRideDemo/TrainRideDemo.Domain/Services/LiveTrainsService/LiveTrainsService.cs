@@ -23,7 +23,7 @@ namespace TrainDemo.Domain.Service
             event EventHandler PoweringUp;
     }
 
-    public class LiveTrainsService : IBaseService<TimeTable>, ILiveTrainsService
+    public class LiveTrainsService : IBaseService<SetOffTime>, ILiveTrainsService
     {
 
         private List<LiveTrainsViewModel> liveTrains = new List<LiveTrainsViewModel>();
@@ -61,27 +61,27 @@ namespace TrainDemo.Domain.Service
             return liveTrains.FirstOrDefault(x => x.Id == Id); ;
         }
 
-        TimeTable IBaseService<TimeTable>.Get(int id)
+        SetOffTime IBaseService<SetOffTime>.Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<TimeTable> GetAll()
+        public List<SetOffTime> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public List<TimeTable> GetAll(Expression<Func<TimeTable, bool>> whereClause)
+        public List<SetOffTime> GetAll(Expression<Func<SetOffTime, bool>> whereClause)
         {
             throw new NotImplementedException();
         }
 
-        public ResponseObject Update(TimeTable arg)
+        public ResponseObject Update(SetOffTime arg)
         {
             throw new NotImplementedException();
         }
 
-        public ResponseObject Insert(TimeTable arg)
+        public ResponseObject Insert(SetOffTime arg)
         {
             throw new NotImplementedException();
         }
@@ -94,17 +94,22 @@ namespace TrainDemo.Domain.Service
 
         public void GetWith_Stop(int id)
         {
-            var dbData = tctx.TimeTables
+            var dbData = tctx.SetOffTimes
                 .Include(t => t.Route)
-                .Include(t => t.Route.StopMaxtrixs)
-                .ThenInclude(sm => sm.ArrivalTimes)
+                .Include(t => t.Route.StopPositionOnRoutes)
                 .ToList();
+
+            
 
             foreach (var item in dbData)
             {
-                liveTrains.Add(new LiveTrainsViewModel { RouteName = item.Route.Name, StopMaxtrix = item.Route.StopMaxtrixs.ToList() });
+               liveTrains.Add(new LiveTrainsViewModel { RouteName = item.Route.Name });
             }         
         }
 
     }
 }
+
+ //.Include(t => t.Route)
+                //.Include(t => t.Route.StopMaxtrixs)
+                //.ThenInclude(sm => sm.ArrivalTimes)

@@ -12,14 +12,14 @@ namespace TrainRideDemo.Data
     {
         public Route()
         {
-            StopMaxtrixs = new HashSet<StopMaxtrix>();
+            StopPositionOnRoutes = new HashSet<StopPositionOnRoute>();
+            SetOffTimes = new HashSet<SetOffTime>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
 
- 
-        public ICollection<StopMaxtrix> StopMaxtrixs  { get; set; }
-        public ICollection<TimeTable> TimeTables { get; set; }
+        public ICollection<StopPositionOnRoute> StopPositionOnRoutes { get; set; }
+        public ICollection<SetOffTime> SetOffTimes { get; set; }
 
     }
 }

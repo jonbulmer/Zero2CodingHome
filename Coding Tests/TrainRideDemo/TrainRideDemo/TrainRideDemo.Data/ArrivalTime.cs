@@ -12,16 +12,16 @@ namespace TrainRideDemo.Data
     {
         int Id { get; set; }
         DateTime TimeArrived { get; set; }
-        int StopMaxtrixId { get; set; }
-        StopMaxtrix StopMaxtrix { get; set; }
+        int StopPositionOnRouteId { get; set; }
+        StopPositionOnRoute StopPositionOnRoute { get; set; }
     }
 
     public class ArrivalTime
     {
         public int Id { get; set; }
         public DateTime TimeArrived { get; set; }
-        public int StopMaxtrixId { get; set; }
-        [ForeignKey("StopMaxtrixId")]
-        public StopMaxtrix StopMaxtrix { get; set; }
+        public int StopPositionOnRouteId { get; set; }
+        [ForeignKey("StopPositionOnRouteId")]
+        public StopPositionOnRoute StopPositionOnRoute { get; set; }
     }
 }

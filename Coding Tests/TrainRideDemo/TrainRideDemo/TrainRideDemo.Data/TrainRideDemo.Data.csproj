@@ -149,11 +149,10 @@
     <Compile Include="ArrivalTime.cs" />
     <Compile Include="Route.cs" />
     <Compile Include="Stop.cs" />
-    <Compile Include="StopDetail.cs" />
-    <Compile Include="StopMaxtrix.cs" />
+    <Compile Include="StopPositionOnRoute.cs" />
     <Compile Include="StopProcedure.cs" />
     <Compile Include="StopProximity.cs" />
-    <Compile Include="TimeTable.cs" />
+    <Compile Include="SetOffTime.cs" />
     <Compile Include="Train.cs" />
     <Compile Include="TrainPosition.cs" />
     <Compile Include="TrainRideDemoContext.cs" />

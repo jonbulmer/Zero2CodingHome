@@ -8,12 +8,10 @@ namespace TrainRideDemo.Data
 {
     public class StopProximity
     {
-        public ICollection<StopMaxtrix> StopMaxtrixs { get; set; }
-        public ICollection<Route> Routes { get; set; }
+        public ICollection<StopPositionOnRoute> StopPositionOnRoutes { get; set; }
         public StopProximity()
         {
-            StopMaxtrixs = new HashSet<StopMaxtrix>();
-            Routes = new HashSet<Route>();
+            StopPositionOnRoutes = new HashSet<StopPositionOnRoute>();
         }
         public int Id { get; set; }
         public int StopId { get; set; }

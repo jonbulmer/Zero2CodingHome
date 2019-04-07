@@ -18,10 +18,10 @@ namespace TrainRideDemo.Tests
         public void Get_StopMaxrix_Record()
         {
             //Arrange
-            var mockSetStopMaxtrixDbSet = Substitute.For<DbSet<StopMaxtrix>>();
+            var mockSetStopMaxtrixDbSet = Substitute.For<DbSet<StopPositionOnRoute>>();
             var MockTrainRideContext = Substitute.For<IStopMaxtrixDbContext>();
             MockTrainRideContext.StopMaxtrixs.Returns(mockSetStopMaxtrixDbSet);
-            mockSetStopMaxtrixDbSet.Add(new StopMaxtrix { Id = 1, PositionIndex = 1, RouteId = 1, StopProximityId = 1 });
+            mockSetStopMaxtrixDbSet.Add(new StopPositionOnRoute { Id = 1, PositionIndex = 1, RouteId = 1, StopProximityId = 1 });
             var service = new LiveTrainsService();
             //Act
 
@@ -29,7 +29,7 @@ namespace TrainRideDemo.Tests
 
             // Assert
 
-            mockSetStopMaxtrixDbSet.Received(1).Add(Arg.Any<StopMaxtrix>());
+            mockSetStopMaxtrixDbSet.Received(1).Add(Arg.Any<StopPositionOnRoute>());
            
         }
 

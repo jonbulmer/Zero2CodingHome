@@ -1,3 +1,5 @@
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Tests.dll.config
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\bin\Debug\nunit.engine.dll
@@ -165,8 +167,6 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\bin\Debug\FluentValidation.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Domain.Tests.csprojAssemblyReference.cache
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Tests.dll.config
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Domain.Tests.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Domain.Tests.csproj.CopyComplete
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Tests.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Tests\obj\Debug\TrainRideDemo.Tests.pdb

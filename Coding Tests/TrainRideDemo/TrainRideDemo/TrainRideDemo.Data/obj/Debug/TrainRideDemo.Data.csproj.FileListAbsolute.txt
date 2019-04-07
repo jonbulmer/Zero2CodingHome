@@ -170,6 +170,7 @@ C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDem
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.dll
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.pdb
 C:\WorkSpace\Zero2Coding\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\TrainRideDemo.Domain.dll.config
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\TrainRideDemo.Data.dll.config
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\TrainRideDemo.Data.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\TrainRideDemo.Data.pdb
@@ -335,8 +336,7 @@ C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\System.Web.WebPages.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.csprojAssemblyReference.cache
-C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.csproj.CoreCompileInputs.cache
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.csproj.CopyComplete
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.dll
 C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.pdb
+C:\Users\jon.bulmer\Documents\GitHub\Zero2CodingHome\Coding Tests\TrainRideDemo\TrainRideDemo\TrainRideDemo.Data\obj\Debug\TrainRideDemo.Data.csprojAssemblyReference.cache

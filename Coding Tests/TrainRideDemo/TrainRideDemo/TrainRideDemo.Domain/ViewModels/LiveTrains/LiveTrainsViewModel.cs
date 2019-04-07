@@ -11,7 +11,7 @@ namespace TrainDemo.Domain
         int Id { get; set; }
         string TrainName { get; set; }
         string RouteName { get; set; }
-        List<TimeTable> TimeTable { get; set; }
+        List<SetOffTime> TimeTable { get; set; }
     }
 
     public class LiveTrainsViewModel : ILiveTrainsViewModel
@@ -19,8 +19,8 @@ namespace TrainDemo.Domain
         public int Id { get; set; }
         public string TrainName { get; set; }
         public string RouteName { get; set; }
-        public List<TimeTable> TimeTable { get; set; }
-        public List<StopMaxtrix> StopMaxtrix { get; set; }
+        public List<SetOffTime> TimeTable { get; set; }
+        public List<StopPositionOnRoute> StopMaxtrix { get; set; }
         public List<ArrivalTime> ArrivalTime { get; set; }
     }
 

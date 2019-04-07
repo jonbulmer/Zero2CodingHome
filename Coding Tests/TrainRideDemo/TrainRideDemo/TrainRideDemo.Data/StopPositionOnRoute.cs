@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrainRideDemo.Data
 {
-    public interface IStopMaxtrix
+    public interface IStopPositionOnRoute
     {
         int Id { get; set; }
         int RouteId { get; set; }
@@ -12,11 +12,13 @@ namespace TrainRideDemo.Data
         int PositionIndex { get; set; }
         int StopProximityId { get; set; }
         StopProximity StopProximity { get; set; }
+        decimal ExpectedRelativeArrivalTime { get; set; }
+
     }
-    public class StopMaxtrix : IStopMaxtrix
+    public class StopPositionOnRoute : IStopPositionOnRoute
     {
         public ICollection<ArrivalTime> ArrivalTimes { get; set; }
-        public StopMaxtrix()
+        public StopPositionOnRoute()
         {
             ArrivalTimes = new HashSet<ArrivalTime>(); 
         }
@@ -30,5 +32,6 @@ namespace TrainRideDemo.Data
         public int StopProximityId { get; set; }
         [ForeignKey("StopProximityId")]
         public StopProximity StopProximity { get; set; }
+        public decimal ExpectedRelativeArrivalTime { get; set; }
     }
 }
