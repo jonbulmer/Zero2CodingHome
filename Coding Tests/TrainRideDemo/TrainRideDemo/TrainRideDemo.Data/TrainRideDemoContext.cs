@@ -5,12 +5,15 @@ using Autofac;
 
 namespace TrainRideDemo.Data
 {
-    public interface IStopMaxtrixDbContext
+    public interface IScheduleDbContext
     {
-        DbSet<StopPositionOnRoute> StopMaxtrixs { get; set; }
+        DbSet<ArrivalTime> ArrivalTimes { get; set; }
+        DbSet<Route> Routes { get; set; }
+        DbSet<StopProximity> StopProximities { get; set; }
+        DbSet<StopPositionOnRoute> StopPositionOnRoutes { get; set; }
     }
 
-    public class TrainRideDemoContext : DbContext//, IStopMaxtrixDbContext
+    public class TrainRideDemoContext : DbContext//, IScheduleDbContext
     {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

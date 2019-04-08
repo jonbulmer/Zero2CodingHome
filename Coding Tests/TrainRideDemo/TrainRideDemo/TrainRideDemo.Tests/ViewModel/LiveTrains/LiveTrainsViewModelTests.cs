@@ -45,7 +45,7 @@ namespace TrainRideDemo.Tests
             calculator.DidNotReceive().Add(3, 7);
 
             calculator.Mode.Returns("DEC");
-            Assert.That(calculator.Mode, Is.EqualTo("Dec"));
+            Assert.That(calculator.Mode, Is.EqualTo("DEC"));
 
 
         }
