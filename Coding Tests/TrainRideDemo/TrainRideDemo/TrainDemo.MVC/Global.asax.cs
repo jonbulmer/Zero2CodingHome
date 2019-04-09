@@ -8,6 +8,7 @@ using System.Web.Routing;
 using Autofac;
 using Autofac.Integration.Mvc;
 using TrainDemo.Domain.Service;
+using TrainRideDemo.Data;
 
 namespace TrainDemo.MVC
 {
@@ -44,6 +45,7 @@ namespace TrainDemo.MVC
             builder.RegisterFilterProvider();
 
             builder.RegisterType<LiveTrainsService>().As<ILiveTrainsService>();
+            builder.RegisterType<ScheduleContext>().As<IScheduleDbContext>();
 
             // Set the dependency resolver to be Autofac.
             var container = builder.Build();

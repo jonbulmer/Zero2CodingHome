@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 using Autofac;
+using System.Threading.Tasks;
 
 namespace TrainRideDemo.Data
 {
@@ -11,19 +12,18 @@ namespace TrainRideDemo.Data
         DbSet<Route> Routes { get; set; }
         DbSet<StopProximity> StopProximities { get; set; }
         DbSet<StopPositionOnRoute> StopPositionOnRoutes { get; set; }
+        DbSet<Stop> Stops { get; set; }
+        DbSet<SetOffTime> SetOffTimes { get; set; }
+        Task<int> SaveChangesAsync();
+
     }
 
-    public class TrainRideDemoContext : DbContext//, IScheduleDbContext
+    public class ScheduleContext : DbContext, IScheduleDbContext
     {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["TrainRideDemoContext"].ConnectionString);
-        }
-
-        public static TrainRideDemoContext Create()
-        {
-            return new TrainRideDemoContext();
         }
 
         public virtual DbSet<ArrivalTime> ArrivalTimes { get; set; }
@@ -57,6 +57,11 @@ namespace TrainRideDemo.Data
                 .HasForeignKey(d => d.StopPositionOnRouteId)
                 .OnDelete(DeleteBehavior.ClientSetNull);
             });
+        }
+
+        public Task<int> SaveChangesAsync()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

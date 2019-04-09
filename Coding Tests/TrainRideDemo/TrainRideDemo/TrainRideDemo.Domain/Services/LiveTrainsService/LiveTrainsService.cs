@@ -10,9 +10,10 @@ namespace TrainDemo.Domain.Service
 {
     public interface ILiveTrainsService
     {
-        List<LiveTrainsViewModel> GetAllLiveTrains();
-        LiveTrainsViewModel Add(LiveTrainsViewModel Item);
+        List<LiveTrainsViewModel> GetAllDeparturesForStopByDay(int stopId, DateTime workingDay);
         LiveTrainsViewModel Get(int Id);
+        List<Stop> GetAllStops();
+
 
     }
 
@@ -25,36 +26,12 @@ namespace TrainDemo.Domain.Service
 
     public class LiveTrainsService : IBaseService<SetOffTime>, ILiveTrainsService
     {
-
+        private readonly IScheduleDbContext _scheduleDbContext;
+        public LiveTrainsService(IScheduleDbContext scheduleDbContext)
+        {
+            _scheduleDbContext = scheduleDbContext;
+        }
         private List<LiveTrainsViewModel> liveTrains = new List<LiveTrainsViewModel>();
-
-        public TrainRideDemoContext tctx = new TrainRideDemoContext(); 
-
-        private int Id = 1;
-
-        public LiveTrainsService()
-        {
-            Add(new LiveTrainsViewModel { TrainName = "HaintonStar", RouteName = "ABNKGX" });
-        }
-
-        public List<LiveTrainsViewModel> GetAllLiveTrains()
-        {
-            GetWith_Stop(3);
-
-            return liveTrains;
-        }
-
-        public LiveTrainsViewModel Add(LiveTrainsViewModel Item)
-        {
-            if (Item == null)
-            {
-                throw new ArgumentException("item");
-            }
-
-            Item.Id += Id;
-            liveTrains.Add(Item);
-            return Item;
-        }
 
         public LiveTrainsViewModel Get(int Id)
         {
@@ -94,7 +71,7 @@ namespace TrainDemo.Domain.Service
 
         public void GetWith_Stop(int id)
         {
-            var dbData = tctx.SetOffTimes
+            var dbData = _scheduleDbContext.SetOffTimes
                 .Include(t => t.Route)
                 .Include(t => t.Route.StopPositionOnRoutes)
                 .ToList();
@@ -107,9 +84,14 @@ namespace TrainDemo.Domain.Service
             }         
         }
 
+        public List<LiveTrainsViewModel> GetAllDeparturesForStopByDay(int stopId, DateTime workingDay)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Stop> GetAllStops()
+        {
+            return _scheduleDbContext.Stops.ToList();
+        }
     }
 }
-
- //.Include(t => t.Route)
-                //.Include(t => t.Route.StopMaxtrixs)
-                //.ThenInclude(sm => sm.ArrivalTimes)

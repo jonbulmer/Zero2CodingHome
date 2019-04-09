@@ -16,7 +16,9 @@ namespace TrainDemo.MVC.Controllers
         }
         public ActionResult Index()
         {
-            var data = _trainService.GetAllLiveTrains();
+            var liveTest = _trainService.GetAllStops();
+            var data = _trainService.GetAllDeparturesForStopByDay(1,DateTime.Parse("1/Apr/2019"));
+
             return View(data);
         }
     }
