@@ -127,6 +127,7 @@
   <ItemGroup>
     <Compile Include="DbSet\EntitiesSetUpTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUtils\DbSetMockUtils.cs" />
     <Compile Include="ViewModel\LiveTrains\LiveTrainsViewModelTests.cs" />
   </ItemGroup>
   <ItemGroup>

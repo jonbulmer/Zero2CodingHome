@@ -70,7 +70,7 @@ namespace TrainRideDemo.Tests.DbSet
             var mockTrainRideContext = Substitute.For<IScheduleDbContext>();
             mockTrainRideContext.Stops.Returns(mockStopDbSet);
 
-            mockStopDbSet.Add(new Stop { Id = 1, Latitued =  1.1M, Longitued = 1.1M, Name = "Test" });
+            mockStopDbSet.Add(new Stop { Id = 1, Latitude =  1.1M, Longitude = 1.1M, Name = "Test" });
 
             mockStopDbSet.Received(1).Add(Arg.Any<Stop>());
         }
