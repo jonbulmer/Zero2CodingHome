@@ -37,16 +37,25 @@ namespace TrainRideDemo.Tests
         [Test]
         public void NsubWIP()
         {
-            var data = new List<Stop>
+            var stopData = new List<Stop>
             {
                 new Stop { Id= 1 , Name = "Darlington", Latitude = 1.1M , Longitude = 1.1M  }
             };
 
-            var mockSet = DbSetMockUtils.CreateMockDbSet(data);
+            var stopProximityData = new List<StopProximity>
+            {
+                new StopProximity { Id= 1 , StopId = 1  }
+            };
+
+            
+            var mockStopSet = DbSetMockUtils.CreateMockDbSet(stopData);
+
+            var mockStopProximitySet = DbSetMockUtils.CreateMockDbSet(stopProximityData);
 
             // do the wiring between DbContext and DbSet
             var mockContext = Substitute.For<IScheduleDbContext>();
-            mockContext.Stops.Returns(mockSet);
+            mockContext.Stops.Returns(mockStopSet);
+            mockContext.StopProximities.Returns(mockStopProximitySet);
             var service = new LiveTrainsService(mockContext);
             //// Act
             var getStops = service.GetAllStops();
@@ -61,7 +70,7 @@ namespace TrainRideDemo.Tests
         {
             var calculator = Substitute.For<ICalculator>();
 
-            calculator.Add(1, 2).Returns(3);
+            //calculator.Add(1, 2).Returns(3);
             Assert.That(calculator.Add(1, 2), Is.EqualTo(3));
 
             calculator.Received().Add(1, 2);

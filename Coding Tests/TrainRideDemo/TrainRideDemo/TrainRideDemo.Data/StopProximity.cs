@@ -16,5 +16,9 @@ namespace TrainRideDemo.Data
         public int Id { get; set; }
         public int StopId { get; set; }
         public Stop Stop { get; set; }
+        public int DestinationStopId { get; set; }
+        public Stop DestinationStop { get; set; }
+        public decimal Distance { get; set; }
+        public decimal KPH { get; set; }
     }
 }

@@ -86,8 +86,17 @@ namespace TrainDemo.Domain.Service
 
         public List<LiveTrainsViewModel> GetAllDeparturesForStopByDay(int stopId, DateTime workingDay)
         {
-            throw new NotImplementedException();
+            var dbReturn = _scheduleDbContext.Routes
+                .Include(r => r.StopPositionOnRoutes)
+                .ThenInclude(spr => spr.StopProximities.Stops);
         }
+
+
+        //Select r.Name, spr.ExpectedRelativeArrivalTime, s.Name from routes r
+        //inner join StopPositionOnRoutes spr on r.Id = spr.RouteId
+        //inner join StopProximities sp on spr.StopProximityId = sp.Id
+        //inner join Stops s on sp.StopId = s.Id
+        //order by PositionIndex
 
         public List<Stop> GetAllStops()
         {
