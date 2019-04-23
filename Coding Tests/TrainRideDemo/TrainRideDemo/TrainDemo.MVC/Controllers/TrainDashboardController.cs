@@ -6,7 +6,11 @@ using System.Web.Mvc;
 
 namespace TrainDemo.MVC.Controllers
 {
-    public class TrainDashboardController : Controller
+    public interface ITrainDashboardController
+    {
+        ActionResult Index();
+    }
+    public class TrainDashboardController : Controller , ITrainDashboardController
     {
 
         readonly ILiveTrainsService _trainService;
@@ -16,7 +20,6 @@ namespace TrainDemo.MVC.Controllers
         }
         public ActionResult Index()
         {
-            var liveTest = _trainService.GetAllStops();
             var data = _trainService.GetAllDeparturesForStopByDay(1,DateTime.Parse("1/Apr/2019"));
 
             return View(data);

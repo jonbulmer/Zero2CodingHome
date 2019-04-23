@@ -148,6 +148,7 @@
   <ItemGroup>
     <Compile Include="ArrivalTime.cs" />
     <Compile Include="Route.cs" />
+    <Compile Include="ScheduleContext.cs" />
     <Compile Include="Stop.cs" />
     <Compile Include="StopPositionOnRoute.cs" />
     <Compile Include="StopProcedure.cs" />
@@ -155,7 +156,6 @@
     <Compile Include="SetOffTime.cs" />
     <Compile Include="Train.cs" />
     <Compile Include="TrainPosition.cs" />
-    <Compile Include="TrainRideDemoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="VehicleType.cs" />

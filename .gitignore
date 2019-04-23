@@ -40,3 +40,5 @@ Coding Tests/TrainRideDemo/TrainRideDemo/TrainRideDemo.Tests/obj/Debug/TrainRide
 Coding Tests/TrainRideDemo/TrainRideDemo/TrainRideDemo.Tests/obj/Debug/TrainRideDemo.Domain.Tests.csproj.CoreCompileInputs.cache
 Coding Tests/TrainRideDemo/TrainRideDemo/TrainRideDemo.Tests/obj/Debug/TrainRideDemo.Tests.pdb
 *.pdb
+Coding Tests/TrainRideDemo/TrainRideDemo/TrainDemo.MVC/bin/TrainDemo.MVC.pdb
+*.pdb

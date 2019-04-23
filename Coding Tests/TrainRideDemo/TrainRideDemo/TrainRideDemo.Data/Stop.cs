@@ -5,19 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrainRideDemo.Data
 {
-    interface IStop
-    {
-        [Key]
-        int Id { get; set; }
-        [Required]
-        string Name { get; set; }
-        decimal Longitude { get; set; }
-        decimal Latitude { get; set; }
 
-        ICollection<StopProximity> StopProximities { get; set; }
-        ICollection<StopProcedure> StopProcedures { get; set; }
-    }
-    public class Stop : IStop
+    public class Stop
     {
         public Stop()
         {

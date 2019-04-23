@@ -86,9 +86,23 @@ namespace TrainDemo.Domain.Service
 
         public List<LiveTrainsViewModel> GetAllDeparturesForStopByDay(int stopId, DateTime workingDay)
         {
-            var dbReturn = _scheduleDbContext.Routes
-                .Include(r => r.StopPositionOnRoutes)
-                .ThenInclude(spr => spr.StopProximities.Stops);
+            var dbReturn = _scheduleDbContext.StopPositionOnRoutes
+                .Include(spr => spr.Route)
+                .Include(spr => spr.StopProximity.Stop);
+
+            IQueryable<StopPositionOnRoute> routesQuery = dbReturn;
+            List<LiveTrainsViewModel> liveTrainsGridDTOQuery = routesQuery.Select(lt => new LiveTrainsViewModel
+            {
+                Id = lt.PositionIndex,
+                Station = lt.StopProximity.Stop.Name,
+                ArrivalTime = lt.ExpectedRelativeArrivalTime,
+                RouteName = lt.Route.Name
+            })
+            .OrderBy(lt => lt.Id).ToList();
+            return liveTrainsGridDTOQuery;
+
+
+
         }
 
 
