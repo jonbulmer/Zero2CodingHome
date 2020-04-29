@@ -24,7 +24,7 @@
     "bootstrap": "^4.0.0",
     "core-js": "^2.5.7",
     "foundation-sites": "^6.4.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jsrsasign": "8.0.4",
     "rxjs": "5.5.5",
     "zone.js": "^0.8.26"
