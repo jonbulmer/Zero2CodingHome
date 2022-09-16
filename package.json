@@ -21,7 +21,7 @@
     "@angular/platform-server": "^5.2.11",
     "@angular/router": "^5.2.11",
     "@angular/upgrade": "5.1.1",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.5.7",
     "foundation-sites": "^6.4.3",
     "jquery": "^3.3.1",
